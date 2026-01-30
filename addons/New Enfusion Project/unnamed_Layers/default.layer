@@ -1,0 +1,16 @@
+SCR_DestructibleEntity : "{628276D30FB74A95}PrefabLibrary/CainLibrary/Walls/Brick/BrickWall_USSR_04_start.et" {
+ coords 83.261 0.99 22.275
+}
+$grp SCR_ChimeraCharacter : "{7A40B2D323AC5AC5}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_AI.et" {
+ {
+  coords 75.298 4.797 44.508
+ }
+ {
+  coords 69.737 13.643 91.939
+  angles 0 137.418 0
+ }
+ {
+  coords 132.262 20.933 101.939
+  angles 0 137.418 0
+ }
+}
