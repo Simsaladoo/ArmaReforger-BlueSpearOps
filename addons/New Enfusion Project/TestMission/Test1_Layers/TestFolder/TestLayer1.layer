@@ -1,0 +1,36 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{687C5DDB0139997F}" {
+    Object "{F781D811A394F6BF}Assets/Props/Agricultural/WaterTank_01/WaterTank_01.xob"
+   }
+  }
+  coords 83.055 3.201 25.899
+ }
+ {
+  components {
+   MeshObject "{687C5DDB0B21593A}" {
+    Object "{DE7AAD901BEE3A7A}Assets/Props/Agricultural/Trough_01/Trough_01.xob"
+   }
+  }
+  coords 81.537 3.459 26.211
+  angles 0 24.593 0
+ }
+ {
+  components {
+   MeshObject "{687C5DDB25E9F76B}" {
+    Object "{7C217A6670CCF87F}Assets/Props/Commercial/BeerKegMetal_01/BeerKegMetal_01_big_lines.xob"
+   }
+  }
+  coords 82.841 3.053 24.495
+ }
+ {
+  components {
+   MeshObject "{687C5DD8F519408E}" {
+    Object "{FD0149077002070F}Assets/Structures/Cultural/Castles/Castle_01/Castle_01_Tower.xob"
+   }
+  }
+  coords 86.812 -9.13 -3.577
+  angles 0 -94.171 0
+ }
+}

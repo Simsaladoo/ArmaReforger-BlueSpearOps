@@ -1,0 +1,58 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{687C5DDB5D7DE944}" {
+    Object "{9CEAB3990A165F7B}Assets/Animals/Larus_argentatus/Larus_argentatus.xob"
+   }
+  }
+  coords 81.284 3.793 28.489
+ }
+ {
+  components {
+   MeshObject "{687C5DDB5B83919B}" {
+    Object "{402C62CF850B817F}Assets/Animals/Columba_livia_domestica/Columba_livia_domestica.xob"
+   }
+  }
+  coords 80.126 3.761 28.028
+ }
+ {
+  components {
+   MeshObject "{687C5DDB59BECA78}" {
+    Object "{D6A3596FEAD7E9C0}Assets/Animals/Apis/Apis.xob"
+   }
+  }
+  coords 81.506 3.61 26.384
+ }
+ {
+  components {
+   MeshObject "{687C5DDB46B1B87A}" {
+    Object "{67B40A11DA23CFAF}Assets/Animals/Apis/Apis_10x.xob"
+   }
+  }
+  coords 81.028 3.51 25.162
+ }
+ {
+  components {
+   MeshObject "{687C5DDB16149C37}" {
+    Object "{96CDF4C0166F696E}Assets/Items/Equipment/Canteens/Canteen_US/Canteen_US_01.xob"
+   }
+  }
+  coords 80.899 3.426 22.255
+ }
+ {
+  components {
+   MeshObject "{687C5DDB1F0D0207}" {
+    Object "{FEC338E88366A268}Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xob"
+   }
+  }
+  coords 81.78 3.301 23.09
+ }
+ {
+  components {
+   MeshObject "{687C5DDB188C3F6F}" {
+    Object "{35054A71A764B615}Assets/Items/Misc/BallisticTable/RangeTable_01.xob"
+   }
+  }
+  coords 81.472 3.396 18.712
+ }
+}
