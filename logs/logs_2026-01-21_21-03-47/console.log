@@ -1,0 +1,1854 @@
+---------------------------------------------
+Log G:\OneDrive\D\Documents\My Games\ArmaReforgerWorkbench\logs\logs_2026-01-21_21-03-47\console.log started at 2026-01-21 21:03:47 (2026-01-22 05:03:47 UTC)
+
+21:03:47.404   ENGINE       : FileSystem: Adding relative directory 'G:\OneDrive\D\Documents\My Games\ArmaReforgerWorkbench\logs\logs_2026-01-21_21-03-47' to filesystem under name logs
+21:03:47.404   ENGINE       : FileSystem: Adding relative directory 'G:\OneDrive\D\Documents\My Games\ArmaReforgerWorkbench\profile' to filesystem under name profile
+21:03:47.421  PROFILING    : Workbench Create Engine took: 29.879300 ms
+21:05:08.106  DEFAULT      : New game project created at: G:/OneDrive/D/DOCUME~1/MYGAME~1/ARMARE~2/addons/NEWENF~1
+21:05:09.163  INIT         : INIT         : Workbench Init Engine
+21:05:09.163   DEFAULT      : Change in Qt version detected (unknown -> 6.8.3). Clearing layouts registry.
+21:05:09.164   ENGINE       : Initializing engine, version 186306
+21:05:09.166   ENGINE       : Addon dirs:
+21:05:09.166    ENGINE       : dir: 'G:/OneDrive/D/DOCUME~1/MYGAME~1/ARMARE~2/addons/NEWENF~1/'
+21:05:09.166    ENGINE       : dir: 'F:/Steam/steamapps/common/Arma Reforger/addons'
+21:05:09.166    ENGINE       : dir: 'F:/Steam/steamapps/common/Arma Reforger Experimental Tools/Workbench/addons'
+21:05:09.166    ENGINE       : dir: 'F:/Steam/steamapps/common/Arma Reforger/addons/data/'
+21:05:09.166   ENGINE       : Available addons:
+21:05:09.166    ENGINE       : gproj: 'G:/OneDrive/D/DOCUME~1/MYGAME~1/ARMARE~2/addons/NEWENF~1/addon.gproj' guid: '686C50EFE65BCD0C'
+21:05:09.166    ENGINE       : gproj: 'F:/Steam/steamapps/common/Arma Reforger/addons/core/core.gproj' guid: '5614BBCCBB55ED1C' (packed)
+21:05:09.166    ENGINE       : gproj: 'F:/Steam/steamapps/common/Arma Reforger/addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859' (packed)
+21:05:09.167   ENGINE       : FileSystem: Adding relative directory 'G:\OneDrive\D\DOCUME~1\MYGAME~1\ARMARE~2\addons\NEWENF~1' to filesystem under name NewEnfusionProject
+21:05:09.356   ENGINE       : FileSystem: Adding package 'F:/Steam/steamapps/common/Arma Reforger/addons/data/' (pak count: 14) to filesystem under name ArmaReforger
+21:05:09.376   ENGINE       : FileSystem: Adding package 'F:/Steam/steamapps/common/Arma Reforger/addons/core/' (pak count: 2) to filesystem under name core
+21:05:09.376   ENGINE       : CPU vendor         : GenuineIntel
+21:05:09.376   ENGINE       : CPU type           : 1
+21:05:09.376   ENGINE       : CPU name           : 12th Gen Intel(R) Core(TM) i9-12900KF
+21:05:09.376   ENGINE       : CPU cache info     : L1 [Inst 32KB, Data 48KB], L2 [Unif 1280KB], L3 [Unif 30720KB]
+21:05:09.376   ENGINE       : CPU count logical  : 24
+21:05:09.376   ENGINE       : CPU count physical : 16
+21:05:09.376   ENGINE       : CPU features       : mmx sse sse2 sse3 ssse3 sse4_1 sse4_2 aesni pclmulqdq osxsave avx sha avx2
+21:05:09.377   RESOURCES    : ResourceDB: loading cache (id=0 name=NewEnfusionProject path=G:\OneDrive\D\DOCUME~1\MYGAME~1\ARMARE~2\addons\NEWENF~1/resourceDatabase.rdb)
+21:05:09.377   RESOURCES    : ResourceDB: loading cache (id=1 name=ArmaReforger path=F:/Steam/steamapps/common/Arma Reforger/addons/data/resourceDatabase.rdb)
+21:05:09.481   RESOURCES    : ResourceDB: loading cache (id=2 name=core path=F:/Steam/steamapps/common/Arma Reforger/addons/core/resourceDatabase.rdb)
+21:05:09.490   RESOURCES    : ResourceDB: loading cache (id=3 name=profile path=G:\OneDrive\D\Documents\My Games\ArmaReforgerWorkbench\profile/resourceDatabase.rdb)
+21:05:09.490   RESOURCES    : ResourceDB: loading cache (id=4 name=logs path=G:\OneDrive\D\Documents\My Games\ArmaReforgerWorkbench\logs\logs_2026-01-21_21-03-47/resourceDatabase.rdb)
+21:05:09.581   RESOURCES    : RESOURCES    : ResourceDB: full scan
+21:05:09.584    RESOURCES    : RESOURCES    : scanning...
+21:05:09.584     RESOURCES    : RESOURCES    : scanning @"NewEnfusionProject"
+21:05:09.585     RESOURCES    : RESOURCES    : scanning @"ArmaReforger"
+21:05:09.676     RESOURCES    : RESOURCES    : scanning @"core"
+21:05:09.678     RESOURCES    : RESOURCES    : scanning @"profile"
+21:05:09.678     RESOURCES    : RESOURCES    : scanning @"logs"
+21:05:09.678    RESOURCES    : RESOURCES    : processing meta-files...
+21:05:09.722    RESOURCES    : RESOURCES    : processing files...
+21:05:09.724    RESOURCES    : RESOURCES    : processing folders...
+21:05:09.728    RESOURCES    : RESOURCES    : creating GUID-item mapping...
+21:05:09.729 INIT         : Workbench startup
+21:05:09.729  INIT         : Workbench Init Engine
+21:05:09.729   RESOURCES    : ResourceDB: full scan
+21:05:09.729    RESOURCES    : creating GUID-item mapping...
+21:05:09.729     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Sounds/Music/KS/Samples/MU_Respawn_02.snd" and @"$ArmaReforger:Sounds/Music/KS/Samples/MU_KS_Respawn_02.snd"
+21:05:09.733     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Sounds/Music/KS/Samples/MU_KS_Death_02.snd" and @"$ArmaReforger:Sounds/Music/KS/Samples/MU_Death_02.snd"
+21:05:09.733     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/EvacuateTask.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/EvacuateTask.et"
+21:05:09.734     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/NeutralizeTask.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/NeutralizeTask.et"
+21:05:09.734     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Sounds/Music/Samples/MU_Respawn_01.snd" and @"$ArmaReforger:Sounds/Music/Samples/MU_KS_Respawn_01.snd"
+21:05:09.734     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Sounds/Music/Samples/MU_KS_Coast_01.snd" and @"$ArmaReforger:Sounds/Music/Samples/MU_Coast_01.snd"
+21:05:09.734     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Systems/Tasks/SupportEntities/BaseTaskSupportEntity.et" and @"$ArmaReforger:Prefabs/Tasks/SupportEntities/BaseTaskSupportEntity.et"
+21:05:09.735     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/SupportEntities/TriggerTaskSupportEntity.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/SupportEntities/TriggerTaskSupportEntity.et"
+21:05:09.735     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Systems/Tasks/RequestedTask.et" and @"$ArmaReforger:Prefabs/Tasks/RequestedTask.et"
+21:05:09.735     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/MoveTask.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/MoveTask.et"
+21:05:09.736     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/SupportEntities/CampaignTaskSupportEntity.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/SupportEntities/CampaignTaskSupportEntity.et"
+21:05:09.736     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Systems/Tasks/BaseTriggerTask.et" and @"$ArmaReforger:Prefabs/Tasks/BaseTriggerTask.et"
+21:05:09.737     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Systems/Tasks/DefendTask.et" and @"$ArmaReforger:Prefabs/Tasks/DefendTask.et"
+21:05:09.737     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/CampaignDefendTask.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/CampaignDefendTask.et"
+21:05:09.738     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:UI/Imagesets/Tasks/Task_Icons.imageset" and @"$ArmaReforger:UI/Imagesets/Tasks/Task-Icons.imageset"
+21:05:09.738     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Sounds/Music/KS/Samples/MU_Map_Theme.snd" and @"$ArmaReforger:Sounds/Music/KS/Samples/MU_KS_Map_Theme.snd"
+21:05:09.738     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Systems/Tasks/SeizeTask.et" and @"$ArmaReforger:Prefabs/Tasks/SeizeTask.et"
+21:05:09.738     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Systems/ScenarioFramework/Triggers/ScenarioFrameworkCharacterTrigger.et" and @"$ArmaReforger:Prefabs/Systems/ScenarioFramework/Triggers/TriggerCharacterSlow.et"
+21:05:09.738     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Systems/Tasks/CampaignBuildingTask.et" and @"$ArmaReforger:Prefabs/Tasks/CampaignBuildingTask.et"
+21:05:09.738     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:anims/anm/player/locomotion/machineguns/IdleTurns/p_lmg_pne_idle_ras_breath.anm" and @"$ArmaReforger:anims/anm/player/locomotion/machineguns/p_lmg_pne_idle_ras_breath.anm"
+21:05:09.739     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/RefuelTask.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/RefuelTask.et"
+21:05:09.739     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/SupportEntities/EditorTaskSupportEntity.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/SupportEntities/EditorTaskSupportEntity.et"
+21:05:09.739     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Sounds/Music/KS/Samples/Layers/MU_Coast_01.snd" and @"$ArmaReforger:Sounds/Music/KS/Samples/Layers/MU_KS_Coast_01.snd"
+21:05:09.739     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Sounds/Music/KS/Samples/MU_Death.snd" and @"$ArmaReforger:Sounds/Music/KS/Samples/MU_KS_Death.snd"
+21:05:09.739     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/CustomTask.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/CustomTask.et"
+21:05:09.739     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:anims/anm/player/locomotion/machineguns/p_lmg_pne_aimspace_body_ras.anm" and @"$ArmaReforger:anims/anm/player/locomotion/machineguns/IdleTurns/p_lmg_pne_aimspace_body_ras.anm"
+21:05:09.739     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/SupportEntities/CampaignBuildingTaskSupportEntity.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/SupportEntities/CampaignBuildingTaskSupportEntity.et"
+21:05:09.740     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Sounds/Music/KS/Samples/MU_KS_Respawn_01.snd" and @"$ArmaReforger:Sounds/Music/KS/Samples/MU_Respawn_01.snd"
+21:05:09.740     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Systems/Tasks/CampaignTask.et" and @"$ArmaReforger:Prefabs/Tasks/CampaignTask.et"
+21:05:09.740     RESOURCES (W): ResourceDB: duplicate GUID found! @"$ArmaReforger:Prefabs/Tasks/TransportTask.et" and @"$ArmaReforger:Prefabs/Systems/Tasks/TransportTask.et"
+21:05:09.742    RESOURCES    : RESOURCES    : building tree...
+21:05:09.775   PROFILING    : ResourceDB: full scan took: 193.809500 ms
+21:05:09.776   RESOURCES    : ResourceDB: saving cache (id=0 name=NewEnfusionProject path=G:\OneDrive\D\DOCUME~1\MYGAME~1\ARMARE~2\addons\NEWENF~1/resourceDatabase.rdb)
+21:05:09.778   RESOURCES    : ResourceDB: written 97/97 bytes
+21:05:09.778   RESOURCES    : ResourceDB: cache successfully saved
+21:05:09.778   RESOURCES    : ResourceDB: saving cache (id=3 name=profile path=G:\OneDrive\D\Documents\My Games\ArmaReforgerWorkbench\profile/resourceDatabase.rdb)
+21:05:09.780   RESOURCES    : ResourceDB: written 136/136 bytes
+21:05:09.780   RESOURCES    : ResourceDB: cache successfully saved
+21:05:09.780   RESOURCES    : ResourceDB: saving cache (id=4 name=logs path=G:\OneDrive\D\Documents\My Games\ArmaReforgerWorkbench\logs\logs_2026-01-21_21-03-47/resourceDatabase.rdb)
+21:05:09.781   RESOURCES    : ResourceDB: written 97/97 bytes
+21:05:09.781   RESOURCES    : ResourceDB: cache successfully saved
+21:05:09.781   ENGINE       : GameProject load
+21:05:09.781    ENGINE       : Loaded addons:
+21:05:09.781     ENGINE       : gproj: 'F:/Steam/steamapps/common/Arma Reforger/addons/core/core.gproj' guid: '5614BBCCBB55ED1C'
+21:05:09.781     ENGINE       : gproj: 'F:/Steam/steamapps/common/Arma Reforger/addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'
+21:05:09.781     ENGINE       : gproj: 'G:/OneDrive/D/DOCUME~1/MYGAME~1/ARMARE~2/addons/NEWENF~1/addon.gproj' guid: '686C50EFE65BCD0C'
+21:05:09.782   ENGINE       : Loading custom engine user config '$profile:.save/app1890880_user76561197995368724/settings/ReforgerEngineSettings.conf'
+21:05:09.782   ENGINE       : No Enfusion settings file loaded. Continuing with defaults
+21:05:09.876   RENDER       : (OK) Adapter 'NVIDIA GeForce RTX 2080 Ti' supports feature level 12_0
+21:05:09.883   RENDER       : Basic screen setup:
+21:05:09.884   RENDER       :   Back buffer format	       : TEXFMT_R8G8B8A8_SRGB (29)
+21:05:09.884   RENDER       :   MSAA                      : none
+21:05:09.923   RENDER       : Driver for NVIDIA GeForce RTX 2080 Ti is from 27.7.2025 (5 months, 28 days old)
+21:05:09.923   RENDER       : GPU_NVIDIA (0x10DE) (NVIDIA GeForce RTX 2080 Ti) with 1 GPU detected, VRAM 11027MB (fast 0MB), shared 32677MB, driver version 580.88
+21:05:09.923   RENDER       : Detected output devices:
+21:05:09.923   RENDER       :  * 3 device/s connected to NVIDIA GeForce RTX 2080 Ti:
+21:05:09.923   RENDER       :    Generic PnP Monitor (\\.\DISPLAY1), 3840x2160 (offset 0x0), 60Hz
+21:05:09.923   RENDER       :    Generic PnP Monitor (\\.\DISPLAY2), 1920x1080 (offset -1920x853), 60Hz
+21:05:09.923   RENDER       :    Generic PnP Monitor (\\.\DISPLAY3), 1080x1920 (offset 3840x226), 60Hz
+21:05:09.923   RENDER       :   Concurrent frames limit 2
+21:05:10.068   RENDER       : Graphics device features
+21:05:10.068   RENDER       :  Needed:
+21:05:10.068   RENDER       :  * Highest supported shader model: 6.5 (6.0 needed)
+21:05:10.068   RENDER       :  Optional:
+21:05:10.068   RENDER       :  * Allow tearing (VSYNC) : 1
+21:05:10.068   RENDER       :  * 16 bits : 1
+21:05:10.068   RENDER       :  * Resource heap tier : 3
+21:05:10.068   RENDER       :  * Persistent heaps (DRED) : 1
+21:05:10.068   RENDER       :  * DRED 1.2 is supported by compiler
+21:05:10.135   RENDER       : Main RT format setup.
+21:05:10.135   RENDER       :   Main RT format for quality 0	: TEXFMT_R11G11B10_FLOAT (26)
+21:05:10.135   RENDER       :   Main RT format for quality 1	: TEXFMT_R16G16B16A16_FLOAT (10)
+21:05:10.143   ENGINE       : Job system settings: coreCount=24, shortJobContextCount=16, shortJobThreadCount=15, longJobThreadCount=24
+21:05:10.213   PROFILING    : Settings changed took: 0.018600 ms
+21:05:10.253   AUDIO        : Speakers (Realtek(R) Audio)
+21:05:10.264   RENDER       : RENDER       : Reload shaders
+21:05:10.264   RENDER       : Reload shaders
+21:05:10.264    RENDER    (E): Invalid Enfusion shader version vs build version (shader version 108 != build version 48), validation failed
+21:05:10.264    INIT         : INIT         : ShaderListReload
+21:05:10.264    PROFILING    : ShaderListReload took: 0.000300 ms
+21:05:10.442    RENDER       : Loaded 3868 newer shader binaries
+21:05:10.442   PROFILING    : Reload shaders took: 178.354800 ms
+21:05:10.442   ENGINE       : Initializing inputs.
+21:05:10.465   NETWORK      : Initializing networking.
+21:05:10.466   NETWORK      : Using new GameRplScheduler.
+21:05:10.469   SCRIPT       : SCRIPT       : Initializing scripts
+21:05:10.469    SCRIPT       : SCRIPT       : ScriptProjectManager init
+21:05:10.472    PROFILING    : ScriptProjectManager init took: 2.305300 ms
+21:05:10.491   PROFILING    : Initializing scripts took: 21.819600 ms
+21:05:10.505   ENGINE       : Enfusion engine successfully created.
+21:05:10.505  PROFILING    : Workbench Init Engine took: 1341.797800 ms
+21:05:10.505  INIT         : INIT         : Workbench Create Game
+21:05:10.529   GUI          : Using default language (en_us)
+21:05:10.529   GUI          : Loading 'en_us' localization file.
+21:05:10.529   INIT         : INIT         : Loading StringTable
+21:05:10.546   PROFILING    : Loading StringTable took: 17.352900 ms
+21:05:10.547   SCRIPT       : SCRIPT       : Compiling GameLib scripts
+21:05:10.587    SCRIPT       : Module: GameLib; loaded 382x files; 556x classes; used 692/2097 kB (32%) of static memory; defines: "ENF_WB,WORKBENCH,PLATFORM_WINDOWS,ENABLE_DIAG,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: d0e6be82
+21:05:10.596    SCRIPT       : Module: Workbench; loaded 19x files; 37x classes; used 130/10485 kB (1%) of static memory; defines: "ENF_WB,WORKBENCH,PLATFORM_WINDOWS,ENABLE_DIAG,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 7d50b840
+21:05:10.597   PROFILING    : Compiling GameLib scripts took: 50.172700 ms
+21:05:10.597   SCRIPT       : SCRIPT       : Compiling Game scripts
+21:05:11.105  INIT         : Workbench Create Game
+21:05:11.105   SCRIPT       : Compiling Game scripts
+21:05:11.105    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,15": 'OnError' is obsolete: Use BackendCallback.SetOnError() instead.
+21:05:11.105    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,22": 'OnSuccess' is obsolete: Use BackendCallback.SetOnSuccess() instead.
+21:05:11.105    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,28": 'OnTimeout' is obsolete: Use BackendCallback.SetOnError() instead.
+21:05:11.296    SCRIPT    (W): @"scripts/Game/Campaign/SCR_PlayerProfileManagerComponent.c,114": 'PlayerRequest' is obsolete
+21:05:11.296    SCRIPT    (W): @"scripts/Game/Campaign/SCR_PlayerProfileManagerComponent.c,133": 'PlayerData' is obsolete
+21:05:11.298    SCRIPT    (W): @"scripts/Game/Character/Cameras/FirstPerson/CharacterCamera1stPersonUnconscious.c,56": 'GetBoneMatrix' is obsolete: Use GetAnimation().GetBoneMatrix() instead
+21:05:11.339    SCRIPT    (W): @"scripts/Game/DataCollection/PlayerData/SCR_PlayerData.c,210": 'PlayerData' is obsolete
+21:05:11.339    SCRIPT    (W): @"scripts/Game/DataCollection/PlayerData/SCR_PlayerData.c,222": 'IsAuthenticated' is obsolete: Use BackendAuthenticatorApi.IsAuthenticated() instead.
+21:05:11.339    SCRIPT    (W): @"scripts/Game/DataCollection/PlayerData/SCR_PlayerData.c,227": 'PlayerRequest' is obsolete
+21:05:11.339    SCRIPT    (W): @"scripts/Game/DataCollection/PlayerData/SCR_PlayerData.c,307": 'PlayerRequest' is obsolete
+21:05:11.348    SCRIPT    (W): @"scripts/Game/Editor/Components/EditableEntity/SCR_EditableEntityComponent.c,774": 'GetPlayerPlatformKind' is obsolete
+21:05:11.348    SCRIPT    (W): @"scripts/Game/Editor/Components/EditableEntity/SCR_EditableEntityComponent.c,775": 'GetPlayerPlatformId' is obsolete
+21:05:11.353    SCRIPT    (W): @"scripts/Game/Editor/Components/Editor/SCR_CameraEditorComponent.c,226": Possible variable name conflict 'editorManagerEntity'
+21:05:11.353    SCRIPT    (W): @"scripts/Game/Editor/Components/Editor/SCR_CameraEditorComponent.c,243": Possible variable name conflict 'editorManagerEntity'
+21:05:11.353    SCRIPT    (W): @"scripts/Game/Editor/Components/Editor/SCR_CameraEditorComponent.c,265": Possible variable name conflict 'editorManagerEntity'
+21:05:11.353    SCRIPT    (W): @"scripts/Game/Editor/Components/Editor/SCR_CameraEditorComponent.c,274": Possible variable name conflict 'editorManagerEntity'
+21:05:11.353    SCRIPT    (W): @"scripts/Game/Editor/Components/Editor/SCR_CameraEditorComponent.c,303": Possible variable name conflict 'editorManagerEntity'
+21:05:11.395    SCRIPT    (W): @"scripts/Game/Editor/UI/Components/Save/SCR_SaveEditorUIComponent.c,207": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.395    SCRIPT    (W): @"scripts/Game/Editor/UI/Components/Save/SCR_SaveEditorUIComponent.c,214": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.395    SCRIPT    (W): @"scripts/Game/Editor/UI/Components/Save/SCR_SaveEditorUIComponent.c,221": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.408    SCRIPT    (W): @"scripts/Game/FactionCommander/Components/SCR_CampaignFactionCommanderPlayerComponent.c,239": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.410    SCRIPT    (W): @"scripts/Game/FactionCommander/Components/SCR_FactionCommanderPlayerComponent.c,821": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.453    SCRIPT    (W): @"scripts/Game/Helpers/SCR_ServicesStatusHelper.c,76": 'IsAuthenticated' is obsolete: Use BackendAuthenticatorApi.IsAuthenticated() instead.
+21:05:11.474    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,17": 'OnError' is obsolete: Use BackendCallback.SetOnError() instead.
+21:05:11.474    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,24": 'OnSuccess' is obsolete: Use BackendCallback.SetOnSuccess() instead.
+21:05:11.474    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,30": 'OnTimeout' is obsolete: Use BackendCallback.SetOnError() instead.
+21:05:11.522    SCRIPT    (W): @"scripts/Game/UI/Components/MainMenu/SCR_AccountWidgetComponent.c,187": 'IsAuthenticated' is obsolete: Use BackendAuthenticatorApi.IsAuthenticated() instead.
+21:05:11.544    SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_NearbyContextDisplay.c,455": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.562    SCRIPT    (W): @"scripts/Game/UI/Menu/CareerMenuUI.c,133": 'IsAuthenticated' is obsolete: Use BackendAuthenticatorApi.IsAuthenticated() instead.
+21:05:11.562    SCRIPT    (W): @"scripts/Game/UI/Menu/CareerMenuUI.c,140": 'PlayerRequest' is obsolete
+21:05:11.593    SCRIPT    (W): @"scripts/Game/UI/Menu/SettingsMenu/SCR_SettingsManagerKeybindModule.c,433": Variable 'path' is not used
+21:05:11.613    SCRIPT    (W): @"scripts/Game/Utilities/SCR_PlayerIdentityUtils.c,20": 'GetPlayerIdentityId' is obsolete
+21:05:11.650    SCRIPT       : Module: Game; loaded 5518x files; 10825x classes; used 29792/41943 kB (71%) of static memory; defines: "ENF_WB,WORKBENCH,PLATFORM_WINDOWS,ENABLE_DIAG,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,BUDGET_OPTIMIZATION_CHECKS,SHOW_DISCLAIMER,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,GAME_MODE_DEBUG,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 45716abe
+21:05:12.185    SCRIPT       : Module: WorkbenchGame; loaded 148x files; 554x classes; used 2138/10485 kB (20%) of static memory; defines: "ENF_WB,WORKBENCH,PLATFORM_WINDOWS,ENABLE_DIAG,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46eea57a
+21:05:12.190    SCRIPT    (W): @"scripts/Game/generated/Radio/BaseTransceiver.c,58": Method not linked 'BaseTransceiver.BeginTransmissionFreq'
+21:05:12.190    SCRIPT    (W): @"scripts/Game/generated/AI/SmartActions/AISmartActionComponent.c,12": Missing script declaration for method 'AISmartActionComponent.SetActionOffset'
+21:05:12.190    SCRIPT    (W): @"scripts/Game/generated/Weapon/BaseMuzzleComponent.c,25": Method not linked 'BaseMuzzleComponent.GetBulletInitSpeedCoef'
+21:05:12.191    SCRIPT    (W): @"scripts/Game/generated/Projectile/ProjectileMoveComponent.c,20": Method not linked 'ProjectileMoveComponent.GetProjectileSimulationResult'
+21:05:12.191    SCRIPT    (W): @"scripts/Game/generated/Systems/Persistence/PersistenceSystem.c,12": Missing script declaration for method 'PersistenceSystem.HasTrackedParent'
+21:05:12.191    SCRIPT    (W): @"scripts/Game/generated/Systems/Persistence/PersistenceSystem.c,30": Method not linked 'PersistenceSystem.GetTrackedParent'
+21:05:12.222   PROFILING    : Compiling Game scripts took: 1625.570600 ms
+21:05:12.227   INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:05:12.246   ENGINE       : Game successfully created.
+21:05:12.247  PROFILING    : Workbench Create Game took: 1742.196300 ms
+21:05:12.257  DEFAULT      : Using thumbnail cache directory: C:/Users/simsa/AppData/Local/Temp/Arma Reforger Workbench Experimental/Projects/NewEnfusionProject/thumbnails
+21:05:13.900  DEFAULT      : Using autosave directory: C:/Users/simsa/AppData/Local/Temp/Arma Reforger Workbench Experimental/Projects/NewEnfusionProject/autosaves
+21:05:13.919 PROFILING    : Workbench startup took: 86642.503400 ms
+21:05:16.229 BACKEND   (E): [RestApi] ID:[5] TYPE:[EBREQ_IDENTITY_Auth] Error Code:404 - Not Found, apiCode="", uid="", message=""
+21:09:11.429 SCRIPT       : GetResourceName 'script'
+21:09:11.429  RESOURCES (E): Wrong GUID for resource @"{0000000000000000}scripts/Game" in property "m_sLastAbsoluteDestinationDirectory"
+21:16:36.205 INIT         : INIT         : Workbench Reload Game
+21:16:36.207  ENGINE       : Game destroyed.
+21:16:36.220  GUI          : Using default language (en_us)
+21:16:36.220  GUI          : Loading 'en_us' localization file.
+21:16:36.220  INIT         : INIT         : Loading StringTable
+21:16:36.231  PROFILING    : Loading StringTable took: 10.959800 ms
+21:16:36.231  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:16:36.237  ENGINE       : Game successfully created.
+21:16:36.237  ENGINE       : Game successfully initialized.
+21:16:36.238 PROFILING    : Workbench Reload Game took: 32.026700 ms
+21:16:36.642 WORLD        : WORLD        : CreateEntities
+21:16:36.643  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:16:36.643  PROFILING    : NotifyBeforeEntitiesCreated took: 0.009400 ms
+21:16:36.643  WORLD        : WORLD        : Wait for preloading data
+21:16:36.644  PROFILING    : Wait for preloading data took: 0.000500 ms
+21:16:36.644  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:16:36.644  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.004500 ms
+21:16:36.645  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:16:36.645  PROFILING    : NotifyEntitiesInitialized took: 0.011400 ms
+21:16:36.645 PROFILING    : CreateEntities took: 2.421600 ms
+21:16:36.772 WORLD        : WORLD        : Entities load '$ArmaReforger:worlds/Cain/Cain.ent'
+21:16:36.877 WORLD        : Entities load '$ArmaReforger:worlds/Cain/Cain.ent'
+21:16:36.877  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 2796174(0x2aaa8e)
+21:16:36.877  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 2805743(0x2acfef)
+21:16:37.286  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 48392468(0x2e26914)
+21:16:37.286  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 48396726(0x2e279b6)
+21:16:37.286  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 48399122(0x2e28312)
+21:16:37.287  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 48415849(0x2e2c469)
+21:16:37.287  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 48440732(0x2e3259c)
+21:16:37.311  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 50878575(0x308586f)
+21:16:37.311  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 50882449(0x3086791)
+21:16:37.427  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 63884966(0x3cecea6)
+21:16:37.427  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 63885141(0x3cecf55)
+21:16:37.427  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 63885316(0x3ced004)
+21:16:37.427  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 63885491(0x3ced0b3)
+21:16:37.427  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 63885666(0x3ced162)
+21:16:37.427  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 63885841(0x3ced211)
+21:16:37.527  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 75397197(0x47e784d)
+21:16:37.527  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 75399128(0x47e7fd8)
+21:16:37.549  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 77577214(0x49fbbfe)
+21:16:37.552  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 77614199(0x4a04c77)
+21:16:37.599  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 83720292(0x4fd7864)
+21:16:37.599  WORLD     (E): Unknown keyword/data 'EndPiece' at offset 83720559(0x4fd796f)
+21:16:37.608 PROFILING    : Entities load took: 836.404500 ms
+21:16:37.617 WORLD        : WORLD        : CreateEntities
+21:16:37.624  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:16:37.624  PROFILING    : NotifyBeforeEntitiesCreated took: 0.003900 ms
+21:16:37.624  WORLD        : WORLD        : Wait for preloading data
+21:16:37.624  PROFILING    : Wait for preloading data took: 0.001900 ms
+21:16:37.727  ENTITY       : Create entity @"ENTITY:3" ('Terrain', GenericTerrainEntity) at <0.000000 0.000000 0.000000> @"{221ABC927C672E4E}Prefabs/World/DefaultWorld/GenericTerrain_Default.et"
+21:16:37.727   PROFILING    : PROFILING    : Terrain load
+21:16:39.215   PROFILING    : Terrain load took: 1488.095100 ms
+21:16:42.282 WORLD        : CreateEntities
+21:16:42.282  ENTITY       : Create entity @"ENTITY:717930" ('StaticModelEntity','Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.xob') at <2336.256104 10.324000 967.916992> @"{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et"
+21:16:42.282   DEFAULT   (W): World doesn't contain RadioManagerEntity to support any BaseRadioComponent.
+21:16:45.830  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:16:45.830  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.007100 ms
+21:16:45.841  WORLD        : InitEntities 'world'
+21:16:45.841   ENTITY       : Init entity @"ENTITY:2" ('MapEntity_Default1', SCR_MapEntity) at <3.279000 2.849000 3.101000> @"{21C189074DAB7E90}Prefabs/World/DefaultWorld/MapEntity_Default.et"
+21:16:45.841    RESOURCES (W): 2dmap geo :: Hill geometry is empty!
+21:16:46.034  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:16:46.034   TERRAIN      : TERRAIN      : Initializing road networks...
+21:16:46.035   PROFILING    : Initializing road networks... took: 1.413100 ms
+21:16:46.035  PROFILING    : NotifyEntitiesInitialized took: 1.597600 ms
+21:16:46.036 PROFILING    : CreateEntities took: 8418.223900 ms
+21:16:46.406 PROFILING    : * WorldEditor: LoadWorld: 9636.635800 ms
+21:16:47.139 TERRAIN      : Loading tile map config (worlds/Cain/Terrain/tileMap.conf)
+21:16:48.340 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:16:48.340  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:16:48.413  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 72.763200 ms
+21:16:48.421 PROFILING    : ObjectsHeightMap::Build took: 81.058200 ms
+21:21:18.274 SCRIPT       : GetResourceName 'script'
+21:21:18.275  RESOURCES (E): Wrong GUID for resource @"{0000000000000000}PrefabsEditable/Auto" in property "m_sDirectory"
+21:21:33.794 INIT         : INIT         : Workbench Reload Game
+21:21:33.797  ENGINE       : Game destroyed.
+21:21:33.809  GUI          : Using default language (en_us)
+21:21:33.809  GUI          : Loading 'en_us' localization file.
+21:21:33.810  INIT         : INIT         : Loading StringTable
+21:21:33.827  PROFILING    : Loading StringTable took: 17.597700 ms
+21:21:33.827  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:21:33.834  ENGINE       : Game successfully created.
+21:21:33.834  ENGINE       : Game successfully initialized.
+21:21:33.834 PROFILING    : Workbench Reload Game took: 40.570300 ms
+21:21:34.212 WORLD        : WORLD        : CreateEntities
+21:21:34.212  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:21:34.212  PROFILING    : NotifyBeforeEntitiesCreated took: 0.003100 ms
+21:21:34.212  WORLD        : WORLD        : Wait for preloading data
+21:21:34.212  PROFILING    : Wait for preloading data took: 0.000300 ms
+21:21:34.213  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:21:34.213  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.003500 ms
+21:21:34.213  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:21:34.213  PROFILING    : NotifyEntitiesInitialized took: 0.008100 ms
+21:21:34.213 PROFILING    : CreateEntities took: 1.590200 ms
+21:21:34.311 WORLD        : WORLD        : Entities load '$ArmaReforger:worlds/ScenarioFramework/SF-Tutorial-Empty.ent'
+21:21:34.312 WORLD        : Entities load '$ArmaReforger:worlds/ScenarioFramework/SF-Tutorial-Empty.ent'
+21:21:34.312  RESOURCES (E): Wrong GUID for resource @"{B9DBD38AF8520AED}(null)" in property "Satellite background image"
+21:21:34.315  RESOURCES    : GetResourceObject @"{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et"
+21:21:34.315   WORLD        : Entity prefab load @"{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et"
+21:21:34.315    RESOURCES    : GetResourceObject @"{5EB46557DF2AA24F}Configs/Factions/US.conf"
+21:21:34.316     DEFAULT      : Config load @"{5EB46557DF2AA24F}Configs/Factions/US.conf"
+21:21:34.316      RESOURCES    : GetResourceObject @"{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf"
+21:21:34.316       DEFAULT      : Config load @"{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf"
+21:21:34.316        RESOURCES (E): Wrong GUID/name for resource @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et" in property "m_sEntityPrefab"
+21:21:34.316        RESOURCES (E): Wrong GUID/name for resource @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et" in property "m_sEntityPrefab"
+21:21:34.316        RESOURCES (E): Wrong GUID/name for resource @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et" in property "m_sEntityPrefab"
+21:21:34.316        RESOURCES (E): Wrong GUID/name for resource @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et" in property "m_sEntityPrefab"
+21:21:34.340 PROFILING    : Entities load took: 29.076000 ms
+21:21:34.341 WORLD        : WORLD        : CreateEntities
+21:21:34.347  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:21:34.347  PROFILING    : NotifyBeforeEntitiesCreated took: 0.003800 ms
+21:21:34.347  WORLD        : WORLD        : Wait for preloading data
+21:21:34.348  PROFILING    : Wait for preloading data took: 0.002500 ms
+21:21:34.368  ENTITY       : Create entity @"ENTITY:2" ('Terrain', GenericTerrainEntity) at <-0.020000 3.820000 0.000000> @"{221ABC927C672E4E}Prefabs/World/DefaultWorld/GenericTerrain_Default.et"
+21:21:34.368   PROFILING    : PROFILING    : Terrain load
+21:21:34.387   PROFILING    : Terrain load took: 18.380200 ms
+21:21:34.394 WORLD        : CreateEntities
+21:21:34.394  RESOURCES (E): Bad texture name ''
+21:21:34.536  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:21:34.536   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:21:34.568  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:21:34.568  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.005100 ms
+21:21:34.593  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:21:34.593   TERRAIN      : TERRAIN      : Initializing road networks...
+21:21:34.593   PROFILING    : Initializing road networks... took: 0.004700 ms
+21:21:34.593  PROFILING    : NotifyEntitiesInitialized took: 0.170100 ms
+21:21:34.593 PROFILING    : CreateEntities took: 252.083100 ms
+21:21:34.895 PROFILING    : * WorldEditor: LoadWorld: 584.735600 ms
+21:21:34.980 TERRAIN      : Loading tile map config (worlds/ScenarioFramework/Terrain/tileMap.conf)
+21:21:35.166 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:21:35.166  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:21:35.168  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 2.259700 ms
+21:21:35.178 PROFILING    : ObjectsHeightMap::Build took: 11.797800 ms
+21:21:42.883 INIT         : INIT         : Workbench Reload Game
+21:21:42.884  ENGINE       : Game destroyed.
+21:21:42.893  GUI          : Using default language (en_us)
+21:21:42.893  GUI          : Loading 'en_us' localization file.
+21:21:42.893  INIT         : INIT         : Loading StringTable
+21:21:42.909  PROFILING    : Loading StringTable took: 15.790500 ms
+21:21:42.909  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:21:42.915  ENGINE       : Game successfully created.
+21:21:42.915  ENGINE       : Game successfully initialized.
+21:21:42.915 PROFILING    : Workbench Reload Game took: 31.926900 ms
+21:21:42.927 PLATFORM     : Save data from container 'settings' have been loaded
+21:21:43.033 PLATFORM     : Save data from container 'sessions' have been loaded
+21:21:43.041 WORLD        : WORLD        : Game::LoadEntities
+21:21:43.042 WORLD        : Game::LoadEntities
+21:21:43.042  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:21:43.042   WORLD     (W): World system SndSystem property Points value differs from legacy setup. current={AfterPostSimulation}, legacy={PostFrame}
+21:21:43.042  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:21:43.042   NETWORK      : Enabled lag compensation, 29 frames with 100 FPS and 280 ms rewind limits.
+21:21:43.042   WORLD     (W): World system SCR_TaskSystem property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:21:43.042   WORLD     (W): World system SCR_AnalyticsApplication property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:21:43.042   WORLD     (W): Using legacy world system SCR_PhysicsObserverSystem. Support for legacy world systems will be removed. Implement InitInfo() function to avoid issues in the future.
+21:21:43.042   WORLD     (W): Execution dependency in system point Frame from world system properties `ProjectileSimulationSystem.ExecuteBefore` or `HandleFireRequestsSystem.ExecuteAfter` does not match legacy setup using `HandleFireRequestsSystem.DependsOn(point: Frame, system: ProjectileSimulationSystem)`. Execution dependency exists only in current setup.
+21:21:43.042   WORLD     (W): Execution dependency in system point Frame from world system properties `HandleAnimatedColliderSystem.ExecuteBefore` or `HandleItemAnimationsSystem.ExecuteAfter` does not match legacy setup using `HandleItemAnimationsSystem.DependsOn(point: Frame, system: HandleAnimatedColliderSystem)`. Execution dependency exists only in current setup.
+21:21:43.042  WORLD        : WORLD        : CreateEntities
+21:21:43.042   WORLD        : WORLD        : CreateEntities
+21:21:43.042    WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:21:43.044     RESOURCES    : Loaded mission headers from 3 addon(s)!
+21:21:43.044    PROFILING    : NotifyBeforeEntitiesCreated took: 1.935100 ms
+21:21:43.044    WORLD        : WORLD        : Wait for preloading data
+21:21:43.044    PROFILING    : Wait for preloading data took: 0.000400 ms
+21:21:43.048  WORLD        : CreateEntities
+21:21:43.048   WORLD        : CreateEntities
+21:21:43.048    RESOURCES (E): Bad texture name ''
+21:21:43.062    ENTITY       : Create entity @"ENTITY:16" ('FactionManager_Editor1', SCR_FactionManager) at <71.217003 2.709000 21.202000>
+21:21:43.062     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:21:43.062      RESOURCES (E): Wrong GUID/name for resource @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et" in property "m_sEntityPrefab"
+21:21:43.062     RESOURCES    : GetResourceObject @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et"
+21:21:43.062      RESOURCES (E): Failed to open
+21:21:43.062     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:21:43.062      RESOURCES (E): Wrong GUID/name for resource @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et" in property "m_sEntityPrefab"
+21:21:43.062     RESOURCES    : GetResourceObject @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et"
+21:21:43.062      RESOURCES (E): Failed to open
+21:21:43.062     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:21:43.062      RESOURCES (E): Wrong GUID/name for resource @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et" in property "m_sEntityPrefab"
+21:21:43.062     RESOURCES    : GetResourceObject @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et"
+21:21:43.062      RESOURCES (E): Failed to open
+21:21:43.062     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:21:43.062      RESOURCES (E): Wrong GUID/name for resource @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et" in property "m_sEntityPrefab"
+21:21:43.062     RESOURCES    : GetResourceObject @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et"
+21:21:43.062      RESOURCES (E): Failed to open
+21:21:44.073    ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:21:44.073     INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:21:44.080    WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:21:44.080    PROFILING    : NotifyBeforeEntitiesInitialized took: 0.033600 ms
+21:21:44.107    WORLD        : WORLD        : NotifyEntitiesInitialized
+21:21:44.107     TERRAIN      : TERRAIN      : Initializing road networks...
+21:21:44.107     PROFILING    : Initializing road networks... took: 0.021900 ms
+21:21:44.107     INIT         : INIT         : SoundWorldInit
+21:21:44.107     PROFILING    : SoundWorldInit took: 0.225800 ms
+21:21:44.107    PROFILING    : NotifyEntitiesInitialized took: 0.351100 ms
+21:21:44.107   PROFILING    : CreateEntities took: 1065.117900 ms
+21:21:44.107  PROFILING    : CreateEntities took: 1065.127900 ms
+21:21:44.107  WORLD        : WORLD        : Wait for preloading data around camera
+21:21:44.108  PROFILING    : Wait for preloading data around camera took: 0.000500 ms
+21:21:44.108  WORLD        : WORLD        : EOnActivate
+21:21:44.108  PROFILING    : EOnActivate took: 0.078200 ms
+21:21:44.108 PROFILING    : Game::LoadEntities took: 1066.522600 ms
+21:21:44.128 DEFAULT      : Entered offline game state.
+21:21:44.249 NETWORK      : Player connected: connectionID=2147483646
+21:21:44.249 NETWORK      : ### Connecting player: connectionID=2147483646, Name=
+21:21:44.250 NETWORK      : ### Creating player: PlayerId=1, Name=Simsaladoo
+21:21:44.257 ENTITY       : SpawnEntityPrefab @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:21:44.257  ENTITY       : Create entity @"ENTITY:2305843009213693964" ('SCR_PlayerController') at <0.000000 0.000000 0.000000>
+21:21:44.258   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:21:44.258   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:21:47.653   SCRIPT    (W): Can't open config file ""
+21:21:47.699  WORLD        : InitEntities 'world'
+21:21:47.699   ENTITY       : Init entity @"ENTITY:2305843009213693964" ('SCR_PlayerController') at <0.000000 0.000000 0.000000> @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:21:47.699    GUI          : WidgetManager: CrateWidgets @"{3C9DCDD76AB83157}UI/layouts/HUD/HUDLayouts/HUDManager_Root.layout"
+21:21:47.699     SCRIPT    (W): Slot_Chat Has no Content!
+21:21:47.699     SCRIPT    (W): Slot_VON Has no Content!
+21:21:47.699     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:21:47.699     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:21:47.700     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:21:47.700     SCRIPT    (W): Slot_Notifications Has no Content!
+21:21:47.700     SCRIPT    (W): Slot_Hints Has no Content!
+21:21:47.700     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:21:47.715 NETWORK      : ### Updating player: PlayerId=1, Name=Simsaladoo, rplIdentity=0xFFFFFFFE, IdentityId=d6f8d3e7-7ae1-43cd-8d40-37b4cd74f8ac
+21:21:47.715 SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+21:21:47.715 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:21:47.715 NETWORK      : Players connecting: 0
+21:21:47.715 NETWORK      : Players connected: 1 / 1
+21:21:47.737 ENTITY       : SpawnEntityPrefab @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:21:47.737  WORLD        : InitEntities 'world'
+21:21:47.737   ENTITY       : Init entity @"ENTITY:2305843009213693969" ('SCR_AIGroup') at <0.000000 0.000000 0.000000> @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:21:47.737    SCRIPT    (W): Cannot spawn team members of group <0x0000029DB09D6600> SCR_AIGroup, AIWorld is missing in the world!
+21:21:47.807 WORLD        : Frame start
+21:21:47.807  NETWORK      : Projectiles will simulate using: EOnFrame
+21:21:47.808  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:21:47.810 WORLD        : UpdateEntities
+21:21:47.810  WORLD        : Frame
+21:21:47.810   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:21:47.865 WORLD        : UpdateEntities
+21:21:47.866  WORLD        : PostFrame
+21:21:47.866   GUI          : WidgetManager: CrateWidgets @"{D89BBA18F99053D6}UI/layouts/HUD/Chat/ChatHud.layout"
+21:21:47.866    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:21:47.904   RESOURCES    : GetResourceObject @"{20A6917D2114E29A}UI/layouts/HUD/Hint/HintInfoDisplay.layout"
+21:21:47.905    GUI          : Layout load @"{20A6917D2114E29A}UI/layouts/HUD/Hint/HintInfoDisplay.layout"
+21:21:47.905     GUI          : Widget prefab @"{EA1CC57D868E94F9}UI/layouts/HUD/Hint/Hint.layout"
+21:21:47.905      GUI       (W): Overridden prefab member (GUID: '{661AB14E0F471C66}' type: ButtonWidgetClass) no longer exists in prefab
+21:21:47.918 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:21:47.918  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:21:47.918  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.045200 ms
+21:21:47.936 PROFILING    : ObjectsHeightMap::Build took: 17.402500 ms
+21:22:37.024 INIT         : INIT         : Workbench Reload Game
+21:22:37.035  GUI          : GUI          : ChangeEngineUserSettings
+21:22:37.035   ENGINE       : Settings changed
+21:22:37.035    GUI          : Using default language (en_us)
+21:22:37.035    GUI          : Loading 'en_us' localization file.
+21:22:37.035    INIT         : INIT         : Loading StringTable
+21:22:37.044    PROFILING    : Loading StringTable took: 8.190300 ms
+21:22:37.045   PROFILING    : Settings changed took: 10.377100 ms
+21:22:37.046  PROFILING    : ChangeEngineUserSettings took: 10.568800 ms
+21:22:37.063  ENGINE       : Game destroyed.
+21:22:37.070  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:22:37.077  ENGINE       : Game successfully created.
+21:22:37.077  ENGINE       : Game successfully initialized.
+21:22:37.077 PROFILING    : Workbench Reload Game took: 52.920300 ms
+21:22:37.090 WORLD        : WORLD        : CreateEntities 'world'
+21:22:37.094  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:22:37.094  PROFILING    : NotifyBeforeEntitiesCreated took: 0.005500 ms
+21:22:37.095  WORLD        : WORLD        : Wait for preloading data
+21:22:37.095  PROFILING    : Wait for preloading data took: 0.001800 ms
+21:22:37.101 WORLD        : CreateEntities 'world'
+21:22:37.101  RESOURCES (E): Bad texture name ''
+21:22:37.134  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:22:37.134   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:22:37.144  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:22:37.145  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.006000 ms
+21:22:37.171  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:22:37.171   TERRAIN      : TERRAIN      : Initializing road networks...
+21:22:37.171   PROFILING    : Initializing road networks... took: 0.004700 ms
+21:22:37.171  PROFILING    : NotifyEntitiesInitialized took: 0.172800 ms
+21:22:37.171 PROFILING    : CreateEntities took: 81.812300 ms
+21:22:37.366 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:22:37.367  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:22:37.367  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.049900 ms
+21:22:37.376 PROFILING    : ObjectsHeightMap::Build took: 9.202900 ms
+21:22:41.861 INIT         : INIT         : Workbench Reload Game
+21:22:41.902  ENGINE       : Game destroyed.
+21:22:41.909  GUI          : Using default language (en_us)
+21:22:41.909  GUI          : Loading 'en_us' localization file.
+21:22:41.909  INIT         : INIT         : Loading StringTable
+21:22:41.925  PROFILING    : Loading StringTable took: 16.432700 ms
+21:22:41.926  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:22:41.933  ENGINE       : Game successfully created.
+21:22:41.933  ENGINE       : Game successfully initialized.
+21:22:41.933 PROFILING    : Workbench Reload Game took: 71.893100 ms
+21:22:42.299 WORLD        : WORLD        : CreateEntities
+21:22:42.299  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:22:42.299  PROFILING    : NotifyBeforeEntitiesCreated took: 0.003100 ms
+21:22:42.299  WORLD        : WORLD        : Wait for preloading data
+21:22:42.300  PROFILING    : Wait for preloading data took: 0.000200 ms
+21:22:42.300  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:22:42.300  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.002300 ms
+21:22:42.300  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:22:42.300  PROFILING    : NotifyEntitiesInitialized took: 0.007100 ms
+21:22:42.300 PROFILING    : CreateEntities took: 0.849700 ms
+21:22:42.380 WORLD        : WORLD        : Entities load '$ArmaReforger:worlds/ScenarioFramework/SF-Tutorial-Empty.ent'
+21:22:42.381 WORLD        : Entities load '$ArmaReforger:worlds/ScenarioFramework/SF-Tutorial-Empty.ent'
+21:22:42.381  RESOURCES (E): Wrong GUID for resource @"{B9DBD38AF8520AED}(null)" in property "Satellite background image"
+21:22:42.383  RESOURCES    : GetResourceObject @"{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et"
+21:22:42.384   WORLD        : Entity prefab load @"{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et"
+21:22:42.384    RESOURCES    : GetResourceObject @"{5EB46557DF2AA24F}Configs/Factions/US.conf"
+21:22:42.384     DEFAULT      : Config load @"{5EB46557DF2AA24F}Configs/Factions/US.conf"
+21:22:42.384      RESOURCES    : GetResourceObject @"{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf"
+21:22:42.384       DEFAULT      : Config load @"{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf"
+21:22:42.384        RESOURCES (E): Wrong GUID/name for resource @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et" in property "m_sEntityPrefab"
+21:22:42.384        RESOURCES (E): Wrong GUID/name for resource @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et" in property "m_sEntityPrefab"
+21:22:42.384        RESOURCES (E): Wrong GUID/name for resource @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et" in property "m_sEntityPrefab"
+21:22:42.384        RESOURCES (E): Wrong GUID/name for resource @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et" in property "m_sEntityPrefab"
+21:22:42.408 PROFILING    : Entities load took: 27.411200 ms
+21:22:42.408 WORLD        : WORLD        : CreateEntities
+21:22:42.417  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:22:42.418  PROFILING    : NotifyBeforeEntitiesCreated took: 0.004300 ms
+21:22:42.418  WORLD        : WORLD        : Wait for preloading data
+21:22:42.418  PROFILING    : Wait for preloading data took: 0.001900 ms
+21:22:42.437  ENTITY       : Create entity @"ENTITY:2" ('Terrain', GenericTerrainEntity) at <-0.020000 3.820000 0.000000> @"{221ABC927C672E4E}Prefabs/World/DefaultWorld/GenericTerrain_Default.et"
+21:22:42.437   PROFILING    : PROFILING    : Terrain load
+21:22:42.450   PROFILING    : Terrain load took: 12.378400 ms
+21:22:42.457 WORLD        : CreateEntities
+21:22:42.457  RESOURCES (E): Bad texture name ''
+21:22:42.584  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:22:42.585   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:22:42.614  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:22:42.615  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.005100 ms
+21:22:42.641  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:22:42.641   TERRAIN      : TERRAIN      : Initializing road networks...
+21:22:42.641   PROFILING    : Initializing road networks... took: 0.004900 ms
+21:22:42.641  PROFILING    : NotifyEntitiesInitialized took: 0.167400 ms
+21:22:42.641 PROFILING    : CreateEntities took: 233.182500 ms
+21:22:42.949 PROFILING    : * WorldEditor: LoadWorld: 570.203600 ms
+21:22:43.035 TERRAIN      : Loading tile map config (worlds/ScenarioFramework/Terrain/tileMap.conf)
+21:22:43.077 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:22:43.077  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:22:43.077  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.137600 ms
+21:22:43.088 PROFILING    : ObjectsHeightMap::Build took: 10.311500 ms
+21:22:50.157 INIT         : INIT         : Workbench Reload Game
+21:22:50.160  ENGINE       : Game destroyed.
+21:22:50.168  GUI          : Using default language (en_us)
+21:22:50.168  GUI          : Loading 'en_us' localization file.
+21:22:50.168  INIT         : INIT         : Loading StringTable
+21:22:50.185  PROFILING    : Loading StringTable took: 16.601500 ms
+21:22:50.185  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:22:50.192  ENGINE       : Game successfully created.
+21:22:50.192  ENGINE       : Game successfully initialized.
+21:22:50.192 PROFILING    : Workbench Reload Game took: 35.032300 ms
+21:22:50.650 WORLD        : WORLD        : CreateEntities
+21:22:50.650  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:22:50.650  PROFILING    : NotifyBeforeEntitiesCreated took: 0.003400 ms
+21:22:50.650  WORLD        : WORLD        : Wait for preloading data
+21:22:50.650  PROFILING    : Wait for preloading data took: 0.000300 ms
+21:22:50.652  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:22:50.653  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.003000 ms
+21:22:50.653  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:22:50.653  PROFILING    : NotifyEntitiesInitialized took: 0.011400 ms
+21:22:50.653 PROFILING    : CreateEntities took: 2.816500 ms
+21:22:50.741 WORLD        : WORLD        : Entities load '$ArmaReforger:worlds/ScenarioFramework/SF-Tutorial-Full.ent'
+21:22:50.742 WORLD        : Entities load '$ArmaReforger:worlds/ScenarioFramework/SF-Tutorial-Full.ent'
+21:22:50.743  WORLD        : Subscene load @"{6A682743B561C24B}worlds/ScenarioFramework/SF-Tutorial-Navmesh.ent"
+21:22:50.743   WORLD        : Subscene load @"{D5ECD1BBED1962EB}worlds/ScenarioFramework/SF-Tutorial-Empty.ent"
+21:22:50.743    RESOURCES (E): Wrong GUID for resource @"{B9DBD38AF8520AED}(null)" in property "Satellite background image"
+21:22:50.746    RESOURCES    : GetResourceObject @"{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et"
+21:22:50.746     WORLD        : Entity prefab load @"{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et"
+21:22:50.746      RESOURCES    : GetResourceObject @"{5EB46557DF2AA24F}Configs/Factions/US.conf"
+21:22:50.746       DEFAULT      : Config load @"{5EB46557DF2AA24F}Configs/Factions/US.conf"
+21:22:50.746        RESOURCES    : GetResourceObject @"{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf"
+21:22:50.746         DEFAULT      : Config load @"{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf"
+21:22:50.747          RESOURCES (E): Wrong GUID/name for resource @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et" in property "m_sEntityPrefab"
+21:22:50.747          RESOURCES (E): Wrong GUID/name for resource @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et" in property "m_sEntityPrefab"
+21:22:50.747          RESOURCES (E): Wrong GUID/name for resource @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et" in property "m_sEntityPrefab"
+21:22:50.747          RESOURCES (E): Wrong GUID/name for resource @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et" in property "m_sEntityPrefab"
+21:22:50.781 PROFILING    : Entities load took: 39.480800 ms
+21:22:50.781 WORLD        : WORLD        : CreateEntities
+21:22:50.788  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:22:50.788  PROFILING    : NotifyBeforeEntitiesCreated took: 0.003300 ms
+21:22:50.788  WORLD        : WORLD        : Wait for preloading data
+21:22:50.788  PROFILING    : Wait for preloading data took: 0.001200 ms
+21:22:50.807  ENTITY       : Create entity @"ENTITY:2" ('Terrain', GenericTerrainEntity) at <-0.020000 3.820000 0.000000> @"{221ABC927C672E4E}Prefabs/World/DefaultWorld/GenericTerrain_Default.et"
+21:22:50.807   PROFILING    : PROFILING    : Terrain load
+21:22:50.818   PROFILING    : Terrain load took: 11.091100 ms
+21:22:50.825 WORLD        : CreateEntities
+21:22:50.825  RESOURCES (E): Bad texture name ''
+21:22:50.954  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:22:50.954   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:22:51.083  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:22:51.083  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.004600 ms
+21:22:51.118  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:22:51.118   TERRAIN      : TERRAIN      : Initializing road networks...
+21:22:51.118   PROFILING    : Initializing road networks... took: 0.006000 ms
+21:22:51.118  PROFILING    : NotifyEntitiesInitialized took: 0.344700 ms
+21:22:51.118 PROFILING    : CreateEntities took: 336.847500 ms
+21:22:51.426 PROFILING    : * WorldEditor: LoadWorld: 686.406500 ms
+21:22:51.512 ENTITY       : SpawnEntityPrefab @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:22:51.512  ENTITY       : Create entity @"ENTITY:6917529027641081934" ('GenericEntity','Assets/Props/Industrial/BarrelFuel_01/BarrelFuel_01_closed.xob') at <43.831997 13.386000 101.817001> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:22:51.512   INVENTORY (W): @"ENTITY:6917529027641081934" ('GenericEntity','Assets/Props/Industrial/BarrelFuel_01/BarrelFuel_01_closed.xob') at <43.831997 13.386000 101.817001> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:22:51.780 TERRAIN      : Loading tile map config (worlds/ScenarioFramework/Terrain/tileMap.conf)
+21:22:51.826 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:22:51.826  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:22:51.826  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.134900 ms
+21:22:51.835 PROFILING    : ObjectsHeightMap::Build took: 9.103700 ms
+21:22:55.993 INIT         : INIT         : Workbench Reload Game
+21:22:56.090  ENGINE       : Game destroyed.
+21:22:56.098  GUI          : Using default language (en_us)
+21:22:56.098  GUI          : Loading 'en_us' localization file.
+21:22:56.098  INIT         : INIT         : Loading StringTable
+21:22:56.114  PROFILING    : Loading StringTable took: 15.261200 ms
+21:22:56.114  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:22:56.121  ENGINE       : Game successfully created.
+21:22:56.121  ENGINE       : Game successfully initialized.
+21:22:56.121 PROFILING    : Workbench Reload Game took: 127.343100 ms
+21:22:56.490 WORLD        : WORLD        : CreateEntities
+21:22:56.490  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:22:56.490  PROFILING    : NotifyBeforeEntitiesCreated took: 0.003400 ms
+21:22:56.490  WORLD        : WORLD        : Wait for preloading data
+21:22:56.490  PROFILING    : Wait for preloading data took: 0.000400 ms
+21:22:56.491  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:22:56.491  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.002700 ms
+21:22:56.491  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:22:56.491  PROFILING    : NotifyEntitiesInitialized took: 0.006800 ms
+21:22:56.491 PROFILING    : CreateEntities took: 0.781300 ms
+21:22:56.581 WORLD        : WORLD        : Entities load '$ArmaReforger:worlds/ScenarioFramework/SF-Tutorial-Navmesh.ent'
+21:22:56.582 WORLD        : Entities load '$ArmaReforger:worlds/ScenarioFramework/SF-Tutorial-Navmesh.ent'
+21:22:56.582  WORLD        : Subscene load @"{D5ECD1BBED1962EB}worlds/ScenarioFramework/SF-Tutorial-Empty.ent"
+21:22:56.583   RESOURCES (E): Wrong GUID for resource @"{B9DBD38AF8520AED}(null)" in property "Satellite background image"
+21:22:56.585   RESOURCES    : GetResourceObject @"{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et"
+21:22:56.585    WORLD        : Entity prefab load @"{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et"
+21:22:56.586     RESOURCES    : GetResourceObject @"{5EB46557DF2AA24F}Configs/Factions/US.conf"
+21:22:56.586      DEFAULT      : Config load @"{5EB46557DF2AA24F}Configs/Factions/US.conf"
+21:22:56.586       RESOURCES    : GetResourceObject @"{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf"
+21:22:56.586        DEFAULT      : Config load @"{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf"
+21:22:56.586         RESOURCES (E): Wrong GUID/name for resource @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et" in property "m_sEntityPrefab"
+21:22:56.586         RESOURCES (E): Wrong GUID/name for resource @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et" in property "m_sEntityPrefab"
+21:22:56.586         RESOURCES (E): Wrong GUID/name for resource @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et" in property "m_sEntityPrefab"
+21:22:56.586         RESOURCES (E): Wrong GUID/name for resource @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et" in property "m_sEntityPrefab"
+21:22:56.611 PROFILING    : Entities load took: 29.940500 ms
+21:22:56.612 WORLD        : WORLD        : CreateEntities
+21:22:56.621  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:22:56.621  PROFILING    : NotifyBeforeEntitiesCreated took: 0.004100 ms
+21:22:56.621  WORLD        : WORLD        : Wait for preloading data
+21:22:56.621  PROFILING    : Wait for preloading data took: 0.001800 ms
+21:22:56.644  ENTITY       : Create entity @"ENTITY:2" ('Terrain', GenericTerrainEntity) at <-0.020000 3.820000 0.000000> @"{221ABC927C672E4E}Prefabs/World/DefaultWorld/GenericTerrain_Default.et"
+21:22:56.644   PROFILING    : PROFILING    : Terrain load
+21:22:56.656   PROFILING    : Terrain load took: 11.340700 ms
+21:22:56.665 WORLD        : CreateEntities
+21:22:56.665  RESOURCES (E): Bad texture name ''
+21:22:56.796  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:22:56.796   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:22:56.831  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:22:56.831  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.005200 ms
+21:22:56.856  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:22:56.856   TERRAIN      : TERRAIN      : Initializing road networks...
+21:22:56.856   PROFILING    : Initializing road networks... took: 0.004800 ms
+21:22:56.856  PROFILING    : NotifyEntitiesInitialized took: 0.165600 ms
+21:22:56.856 PROFILING    : CreateEntities took: 243.819100 ms
+21:22:57.157 PROFILING    : * WorldEditor: LoadWorld: 577.978700 ms
+21:22:57.251 TERRAIN      : Loading tile map config (worlds/ScenarioFramework/Terrain/tileMap.conf)
+21:22:57.292 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:22:57.292  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:22:57.292  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.123200 ms
+21:22:57.302 PROFILING    : ObjectsHeightMap::Build took: 9.959600 ms
+21:23:02.557 INIT         : INIT         : Workbench Reload Game
+21:23:02.616  ENGINE       : Game destroyed.
+21:23:02.623  GUI          : Using default language (en_us)
+21:23:02.623  GUI          : Loading 'en_us' localization file.
+21:23:02.623  INIT         : INIT         : Loading StringTable
+21:23:02.639  PROFILING    : Loading StringTable took: 15.619800 ms
+21:23:02.639  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:23:02.646  ENGINE       : Game successfully created.
+21:23:02.646  ENGINE       : Game successfully initialized.
+21:23:02.646 PROFILING    : Workbench Reload Game took: 89.253600 ms
+21:23:02.661 PLATFORM     : Save data from container 'settings' have been loaded
+21:23:02.764 PLATFORM     : Save data from container 'sessions' have been loaded
+21:23:02.772 WORLD        : WORLD        : Game::LoadEntities
+21:23:02.773 WORLD        : Game::LoadEntities
+21:23:02.773  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:23:02.773   WORLD     (W): World system SndSystem property Points value differs from legacy setup. current={AfterPostSimulation}, legacy={PostFrame}
+21:23:02.773  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:23:02.773   NETWORK      : Enabled lag compensation, 29 frames with 100 FPS and 280 ms rewind limits.
+21:23:02.773   WORLD     (W): World system SCR_TaskSystem property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:23:02.773   WORLD     (W): World system SCR_AnalyticsApplication property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:23:02.773   WORLD     (W): Using legacy world system SCR_PhysicsObserverSystem. Support for legacy world systems will be removed. Implement InitInfo() function to avoid issues in the future.
+21:23:02.774   WORLD     (W): Execution dependency in system point Frame from world system properties `ProjectileSimulationSystem.ExecuteBefore` or `HandleFireRequestsSystem.ExecuteAfter` does not match legacy setup using `HandleFireRequestsSystem.DependsOn(point: Frame, system: ProjectileSimulationSystem)`. Execution dependency exists only in current setup.
+21:23:02.774   WORLD     (W): Execution dependency in system point Frame from world system properties `HandleAnimatedColliderSystem.ExecuteBefore` or `HandleItemAnimationsSystem.ExecuteAfter` does not match legacy setup using `HandleItemAnimationsSystem.DependsOn(point: Frame, system: HandleAnimatedColliderSystem)`. Execution dependency exists only in current setup.
+21:23:02.774  WORLD        : WORLD        : CreateEntities
+21:23:02.774   WORLD        : WORLD        : CreateEntities
+21:23:02.774    WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:23:02.777     RESOURCES    : Loaded mission headers from 3 addon(s)!
+21:23:02.777    PROFILING    : NotifyBeforeEntitiesCreated took: 3.609400 ms
+21:23:02.777    WORLD        : WORLD        : Wait for preloading data
+21:23:02.777    PROFILING    : Wait for preloading data took: 0.000300 ms
+21:23:02.781  WORLD        : CreateEntities
+21:23:02.781   WORLD        : CreateEntities
+21:23:02.781    RESOURCES (E): Bad texture name ''
+21:23:02.796    ENTITY       : Create entity @"ENTITY:16" ('FactionManager_Editor1', SCR_FactionManager) at <71.217003 2.709000 21.202000>
+21:23:02.796     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:23:02.796      RESOURCES (E): Wrong GUID/name for resource @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et" in property "m_sEntityPrefab"
+21:23:02.796     RESOURCES    : GetResourceObject @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et"
+21:23:02.796      RESOURCES (E): Failed to open
+21:23:02.796     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:23:02.796      RESOURCES (E): Wrong GUID/name for resource @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et" in property "m_sEntityPrefab"
+21:23:02.796     RESOURCES    : GetResourceObject @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et"
+21:23:02.796      RESOURCES (E): Failed to open
+21:23:02.796     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:23:02.796      RESOURCES (E): Wrong GUID/name for resource @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et" in property "m_sEntityPrefab"
+21:23:02.796     RESOURCES    : GetResourceObject @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et"
+21:23:02.796      RESOURCES (E): Failed to open
+21:23:02.796     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:23:02.796      RESOURCES (E): Wrong GUID/name for resource @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et" in property "m_sEntityPrefab"
+21:23:02.796     RESOURCES    : GetResourceObject @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et"
+21:23:02.796      RESOURCES (E): Failed to open
+21:23:03.803    ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:23:03.803     INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:23:03.815    WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:23:03.815    PROFILING    : NotifyBeforeEntitiesInitialized took: 0.021700 ms
+21:23:03.842    WORLD        : WORLD        : NotifyEntitiesInitialized
+21:23:03.842     TERRAIN      : TERRAIN      : Initializing road networks...
+21:23:03.842     PROFILING    : Initializing road networks... took: 0.004800 ms
+21:23:03.842     INIT         : INIT         : SoundWorldInit
+21:23:03.843     PROFILING    : SoundWorldInit took: 0.233000 ms
+21:23:03.843    PROFILING    : NotifyEntitiesInitialized took: 0.333200 ms
+21:23:03.843   PROFILING    : CreateEntities took: 1069.130600 ms
+21:23:03.843  PROFILING    : CreateEntities took: 1069.142700 ms
+21:23:03.843  WORLD        : WORLD        : Wait for preloading data around camera
+21:23:03.843  PROFILING    : Wait for preloading data around camera took: 0.000500 ms
+21:23:03.843  WORLD        : WORLD        : EOnActivate
+21:23:03.843  PROFILING    : EOnActivate took: 0.080600 ms
+21:23:03.843 PROFILING    : Game::LoadEntities took: 1070.938500 ms
+21:23:03.859 DEFAULT      : Entered offline game state.
+21:23:03.960 NETWORK      : Player connected: connectionID=2147483646
+21:23:03.960 NETWORK      : ### Connecting player: connectionID=2147483646, Name=
+21:23:03.961 NETWORK      : ### Creating player: PlayerId=1, Name=Simsaladoo
+21:23:03.967 ENTITY       : SpawnEntityPrefab @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:23:03.967  ENTITY       : Create entity @"ENTITY:4611686018427387916" ('SCR_PlayerController') at <0.000000 0.000000 0.000000>
+21:23:03.968   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:23:03.968   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:23:03.970   SCRIPT    (W): Can't open config file ""
+21:23:03.973  WORLD        : InitEntities 'world'
+21:23:03.973   ENTITY       : Init entity @"ENTITY:4611686018427387916" ('SCR_PlayerController') at <0.000000 0.000000 0.000000> @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:23:03.973    GUI          : WidgetManager: CrateWidgets @"{3C9DCDD76AB83157}UI/layouts/HUD/HUDLayouts/HUDManager_Root.layout"
+21:23:03.973     SCRIPT    (W): Slot_Chat Has no Content!
+21:23:03.973     SCRIPT    (W): Slot_VON Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_Notifications Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_Hints Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:23:03.988 NETWORK      : ### Updating player: PlayerId=1, Name=Simsaladoo, rplIdentity=0xFFFFFFFE, IdentityId=d6f8d3e7-7ae1-43cd-8d40-37b4cd74f8ac
+21:23:03.988 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:23:03.988 NETWORK      : Players connecting: 0
+21:23:03.988 NETWORK      : Players connected: 1 / 1
+21:23:04.008 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:23:04.008  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:23:04.008  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.042200 ms
+21:23:04.017 PROFILING    : ObjectsHeightMap::Build took: 8.827200 ms
+21:23:04.037 ENTITY       : SpawnEntityPrefab @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:23:04.037  WORLD        : InitEntities 'world'
+21:23:04.037   ENTITY       : Init entity @"ENTITY:4611686018427387921" ('SCR_AIGroup') at <0.000000 0.000000 0.000000> @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:23:04.037    SCRIPT    (W): Formation of group <0x0000029E86039C50> SCR_AIGroup not found in SCR_AIWorld! Team members will not be spawned.
+21:23:04.103 WORLD        : Frame start
+21:23:04.103  NETWORK      : Projectiles will simulate using: EOnFrame
+21:23:04.104  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:23:04.104 WORLD        : UpdateEntities
+21:23:04.104  WORLD        : Frame
+21:23:04.104   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:23:04.139 WORLD        : UpdateEntities
+21:23:04.140  WORLD        : PostFrame
+21:23:04.140   GUI          : WidgetManager: CrateWidgets @"{D89BBA18F99053D6}UI/layouts/HUD/Chat/ChatHud.layout"
+21:23:04.140    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:23:04.173   RESOURCES    : GetResourceObject @"{20A6917D2114E29A}UI/layouts/HUD/Hint/HintInfoDisplay.layout"
+21:23:04.173    GUI          : Layout load @"{20A6917D2114E29A}UI/layouts/HUD/Hint/HintInfoDisplay.layout"
+21:23:04.173     GUI          : Widget prefab @"{EA1CC57D868E94F9}UI/layouts/HUD/Hint/Hint.layout"
+21:23:04.173      GUI       (W): Overridden prefab member (GUID: '{661AB14E0F471C66}' type: ButtonWidgetClass) no longer exists in prefab
+21:23:10.932 INIT         : INIT         : Workbench Reload Game
+21:23:10.964  ENGINE       : Game destroyed.
+21:23:10.970  GUI          : Using default language (en_us)
+21:23:10.970  GUI          : Loading 'en_us' localization file.
+21:23:10.970  INIT         : INIT         : Loading StringTable
+21:23:10.978  PROFILING    : Loading StringTable took: 7.055300 ms
+21:23:10.978  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:23:10.984  ENGINE       : Game successfully created.
+21:23:10.984  ENGINE       : Game successfully initialized.
+21:23:10.984 PROFILING    : Workbench Reload Game took: 51.720600 ms
+21:23:10.991 WORLD        : WORLD        : CreateEntities 'world'
+21:23:10.996  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:23:10.996  PROFILING    : NotifyBeforeEntitiesCreated took: 0.004900 ms
+21:23:10.996  WORLD        : WORLD        : Wait for preloading data
+21:23:10.996  PROFILING    : Wait for preloading data took: 0.001500 ms
+21:23:11.003 WORLD        : CreateEntities 'world'
+21:23:11.003  RESOURCES (E): Bad texture name ''
+21:23:11.035  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:23:11.035   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:23:11.048  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:23:11.048  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.004500 ms
+21:23:11.070  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:23:11.070   TERRAIN      : TERRAIN      : Initializing road networks...
+21:23:11.070   PROFILING    : Initializing road networks... took: 0.005200 ms
+21:23:11.070  PROFILING    : NotifyEntitiesInitialized took: 0.160300 ms
+21:23:11.070 PROFILING    : CreateEntities took: 79.578700 ms
+21:23:11.256 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:23:11.257  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:23:11.257  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.045600 ms
+21:23:11.265 PROFILING    : ObjectsHeightMap::Build took: 8.740800 ms
+21:23:40.935 WORLD        : WORLD        : CreateEntities
+21:23:40.944  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:23:40.944  PROFILING    : NotifyBeforeEntitiesCreated took: 0.004400 ms
+21:23:40.944  WORLD        : WORLD        : Wait for preloading data
+21:23:40.944  PROFILING    : Wait for preloading data took: 0.002600 ms
+21:23:40.966  ENTITY       : Create entity @"ENTITY:2" ('Terrain', GenericTerrainEntity) at <-0.020000 3.820000 0.000000> @"{221ABC927C672E4E}Prefabs/World/DefaultWorld/GenericTerrain_Default.et"
+21:23:40.966   PROFILING    : PROFILING    : Terrain load
+21:23:40.979   PROFILING    : Terrain load took: 12.312000 ms
+21:23:40.985 WORLD        : CreateEntities
+21:23:40.985  RESOURCES (E): Bad texture name ''
+21:23:41.109  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:23:41.109   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:23:41.138  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:23:41.139  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.005300 ms
+21:23:41.163  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:23:41.163   TERRAIN      : TERRAIN      : Initializing road networks...
+21:23:41.164   PROFILING    : Initializing road networks... took: 0.005700 ms
+21:23:41.164  PROFILING    : NotifyEntitiesInitialized took: 0.396200 ms
+21:23:41.164 PROFILING    : CreateEntities took: 228.629300 ms
+21:23:41.466 TERRAIN      : Loading tile map config (worlds/ScenarioFramework/Terrain/tileMap.conf)
+21:23:41.510 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:23:41.511  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:23:41.511  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.128300 ms
+21:23:41.520 PROFILING    : ObjectsHeightMap::Build took: 9.395500 ms
+21:24:12.593 INIT         : INIT         : Workbench Reload Game
+21:24:12.594  ENGINE       : Game destroyed.
+21:24:12.600  GUI          : Using default language (en_us)
+21:24:12.600  GUI          : Loading 'en_us' localization file.
+21:24:12.600  INIT         : INIT         : Loading StringTable
+21:24:12.616  PROFILING    : Loading StringTable took: 15.563900 ms
+21:24:12.616  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:24:12.623  ENGINE       : Game successfully created.
+21:24:12.623  ENGINE       : Game successfully initialized.
+21:24:12.623 PROFILING    : Workbench Reload Game took: 29.981700 ms
+21:24:12.636 PLATFORM     : Save data from container 'settings' have been loaded
+21:24:12.742 PLATFORM     : Save data from container 'sessions' have been loaded
+21:24:12.752 WORLD        : WORLD        : Game::LoadEntities
+21:24:12.753 WORLD        : Game::LoadEntities
+21:24:12.753  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:24:12.753   WORLD     (W): World system SndSystem property Points value differs from legacy setup. current={AfterPostSimulation}, legacy={PostFrame}
+21:24:12.753  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:24:12.753   NETWORK      : Enabled lag compensation, 29 frames with 100 FPS and 280 ms rewind limits.
+21:24:12.753   WORLD     (W): World system SCR_TaskSystem property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:24:12.753   WORLD     (W): World system SCR_AnalyticsApplication property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:24:12.753   WORLD     (W): Using legacy world system SCR_PhysicsObserverSystem. Support for legacy world systems will be removed. Implement InitInfo() function to avoid issues in the future.
+21:24:12.753   WORLD     (W): Execution dependency in system point Frame from world system properties `ProjectileSimulationSystem.ExecuteBefore` or `HandleFireRequestsSystem.ExecuteAfter` does not match legacy setup using `HandleFireRequestsSystem.DependsOn(point: Frame, system: ProjectileSimulationSystem)`. Execution dependency exists only in current setup.
+21:24:12.753   WORLD     (W): Execution dependency in system point Frame from world system properties `HandleAnimatedColliderSystem.ExecuteBefore` or `HandleItemAnimationsSystem.ExecuteAfter` does not match legacy setup using `HandleItemAnimationsSystem.DependsOn(point: Frame, system: HandleAnimatedColliderSystem)`. Execution dependency exists only in current setup.
+21:24:12.753  WORLD        : WORLD        : CreateEntities
+21:24:12.754   WORLD        : WORLD        : CreateEntities
+21:24:12.754    WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:24:12.755     RESOURCES    : Loaded mission headers from 3 addon(s)!
+21:24:12.755    PROFILING    : NotifyBeforeEntitiesCreated took: 1.959600 ms
+21:24:12.755    WORLD        : WORLD        : Wait for preloading data
+21:24:12.755    PROFILING    : Wait for preloading data took: 0.000500 ms
+21:24:12.758  WORLD        : CreateEntities
+21:24:12.758   WORLD        : CreateEntities
+21:24:12.758    RESOURCES (E): Bad texture name ''
+21:24:12.768    ENTITY       : Create entity @"ENTITY:16" ('FactionManager_Editor1', SCR_FactionManager) at <71.217003 2.709000 21.202000>
+21:24:12.768     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:12.768      RESOURCES (E): Wrong GUID/name for resource @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et" in property "m_sEntityPrefab"
+21:24:12.768     RESOURCES    : GetResourceObject @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et"
+21:24:12.768      RESOURCES (E): Failed to open
+21:24:12.768     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:12.768      RESOURCES (E): Wrong GUID/name for resource @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et" in property "m_sEntityPrefab"
+21:24:12.769     RESOURCES    : GetResourceObject @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et"
+21:24:12.769      RESOURCES (E): Failed to open
+21:24:12.769     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:12.769      RESOURCES (E): Wrong GUID/name for resource @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et" in property "m_sEntityPrefab"
+21:24:12.769     RESOURCES    : GetResourceObject @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et"
+21:24:12.769      RESOURCES (E): Failed to open
+21:24:12.769     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:12.769      RESOURCES (E): Wrong GUID/name for resource @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et" in property "m_sEntityPrefab"
+21:24:12.769     RESOURCES    : GetResourceObject @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et"
+21:24:12.769      RESOURCES (E): Failed to open
+21:24:13.726    ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:24:13.727     INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:24:13.787    WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:24:13.788    PROFILING    : NotifyBeforeEntitiesInitialized took: 0.050000 ms
+21:24:13.816    WORLD        : WORLD        : NotifyEntitiesInitialized
+21:24:13.816     TERRAIN      : TERRAIN      : Initializing road networks...
+21:24:13.816     PROFILING    : Initializing road networks... took: 0.004400 ms
+21:24:13.817     INIT         : INIT         : SoundWorldInit
+21:24:13.817     PROFILING    : SoundWorldInit took: 0.206500 ms
+21:24:13.817    PROFILING    : NotifyEntitiesInitialized took: 0.305800 ms
+21:24:13.817   PROFILING    : CreateEntities took: 1063.281700 ms
+21:24:13.817  PROFILING    : CreateEntities took: 1063.297800 ms
+21:24:13.817  WORLD        : WORLD        : Wait for preloading data around camera
+21:24:13.817  PROFILING    : Wait for preloading data around camera took: 0.000500 ms
+21:24:13.817  WORLD        : WORLD        : EOnActivate
+21:24:13.817  PROFILING    : EOnActivate took: 0.080400 ms
+21:24:13.817 PROFILING    : Game::LoadEntities took: 1065.160600 ms
+21:24:13.840 DEFAULT      : Entered offline game state.
+21:24:13.938 NETWORK      : Player connected: connectionID=2147483646
+21:24:13.938 NETWORK      : ### Connecting player: connectionID=2147483646, Name=
+21:24:13.939 NETWORK      : ### Creating player: PlayerId=1, Name=Simsaladoo
+21:24:13.945 ENTITY       : SpawnEntityPrefab @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:24:13.945  ENTITY       : Create entity @"ENTITY:6917529027641081959" ('SCR_PlayerController') at <0.000000 0.000000 0.000000>
+21:24:13.945   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:24:13.946   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:24:13.947   SCRIPT    (W): Can't open config file ""
+21:24:13.950  WORLD        : InitEntities 'world'
+21:24:13.950   ENTITY       : Init entity @"ENTITY:6917529027641081959" ('SCR_PlayerController') at <0.000000 0.000000 0.000000> @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:24:13.951    GUI          : WidgetManager: CrateWidgets @"{3C9DCDD76AB83157}UI/layouts/HUD/HUDLayouts/HUDManager_Root.layout"
+21:24:13.951     SCRIPT    (W): Slot_Chat Has no Content!
+21:24:13.951     SCRIPT    (W): Slot_VON Has no Content!
+21:24:13.951     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:24:13.951     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:24:13.951     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:24:13.951     SCRIPT    (W): Slot_Notifications Has no Content!
+21:24:13.952     SCRIPT    (W): Slot_Hints Has no Content!
+21:24:13.952     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:24:13.965 NETWORK      : ### Updating player: PlayerId=1, Name=Simsaladoo, rplIdentity=0xFFFFFFFE, IdentityId=d6f8d3e7-7ae1-43cd-8d40-37b4cd74f8ac
+21:24:13.966 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:24:13.966 NETWORK      : Players connecting: 0
+21:24:13.966 NETWORK      : Players connected: 1 / 1
+21:24:13.984 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:24:13.984  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:24:13.984  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.047800 ms
+21:24:13.992 PROFILING    : ObjectsHeightMap::Build took: 8.498500 ms
+21:24:14.007 SCRIPT    (W): SCR_RefundPylonSupportStationAction could not find the prefab data in catalog.
+21:24:14.007 SCRIPT    (W): SCR_RefundPylonSupportStationAction could not find the prefab data in catalog.
+21:24:14.013 ENTITY       : SpawnEntityPrefab @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:24:14.013  WORLD        : InitEntities 'world'
+21:24:14.013   ENTITY       : Init entity @"ENTITY:6917529027641081964" ('SCR_AIGroup') at <0.000000 0.000000 0.000000> @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:24:14.013    SCRIPT    (W): Formation of group <0x0000029D70178A40> SCR_AIGroup not found in SCR_AIWorld! Team members will not be spawned.
+21:24:14.081 WORLD        : Frame start
+21:24:14.081  NETWORK      : Projectiles will simulate using: EOnFrame
+21:24:14.081  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:24:14.081 WORLD        : UpdateEntities
+21:24:14.081  WORLD        : Frame
+21:24:14.081   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:24:14.116 WORLD        : UpdateEntities
+21:24:14.116  WORLD        : PostFrame
+21:24:14.116   GUI          : WidgetManager: CrateWidgets @"{D89BBA18F99053D6}UI/layouts/HUD/Chat/ChatHud.layout"
+21:24:14.116    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:24:14.147   RESOURCES    : GetResourceObject @"{20A6917D2114E29A}UI/layouts/HUD/Hint/HintInfoDisplay.layout"
+21:24:14.147    GUI          : Layout load @"{20A6917D2114E29A}UI/layouts/HUD/Hint/HintInfoDisplay.layout"
+21:24:14.147     GUI          : Widget prefab @"{EA1CC57D868E94F9}UI/layouts/HUD/Hint/Hint.layout"
+21:24:14.147      GUI       (W): Overridden prefab member (GUID: '{661AB14E0F471C66}' type: ButtonWidgetClass) no longer exists in prefab
+21:24:20.921 INIT         : INIT         : Workbench Reload Game
+21:24:20.945  ENGINE       : Game destroyed.
+21:24:20.955  GUI          : Using default language (en_us)
+21:24:20.955  GUI          : Loading 'en_us' localization file.
+21:24:20.955  INIT         : INIT         : Loading StringTable
+21:24:20.962  PROFILING    : Loading StringTable took: 6.807100 ms
+21:24:20.962  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:24:20.967  ENGINE       : Game successfully created.
+21:24:20.967  ENGINE       : Game successfully initialized.
+21:24:20.968 PROFILING    : Workbench Reload Game took: 46.327600 ms
+21:24:20.975 WORLD        : WORLD        : CreateEntities 'world'
+21:24:20.979  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:24:20.979  PROFILING    : NotifyBeforeEntitiesCreated took: 0.003700 ms
+21:24:20.980  WORLD        : WORLD        : Wait for preloading data
+21:24:20.980  PROFILING    : Wait for preloading data took: 0.001600 ms
+21:24:20.985 WORLD        : CreateEntities 'world'
+21:24:20.985  RESOURCES (E): Bad texture name ''
+21:24:21.019  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:24:21.019   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:24:21.043  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:24:21.043  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.004500 ms
+21:24:21.069  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:24:21.069   TERRAIN      : TERRAIN      : Initializing road networks...
+21:24:21.069   PROFILING    : Initializing road networks... took: 0.004400 ms
+21:24:21.069  PROFILING    : NotifyEntitiesInitialized took: 0.164800 ms
+21:24:21.069 PROFILING    : CreateEntities took: 94.056500 ms
+21:24:21.270 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:24:21.270  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:24:21.270  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.048000 ms
+21:24:21.279 PROFILING    : ObjectsHeightMap::Build took: 8.694300 ms
+21:24:45.526 INIT         : INIT         : Workbench Reload Game
+21:24:45.527  ENGINE       : Game destroyed.
+21:24:45.532  GUI          : Using default language (en_us)
+21:24:45.532  GUI          : Loading 'en_us' localization file.
+21:24:45.533  INIT         : INIT         : Loading StringTable
+21:24:45.540  PROFILING    : Loading StringTable took: 7.033400 ms
+21:24:45.540  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:24:45.545  ENGINE       : Game successfully created.
+21:24:45.545  ENGINE       : Game successfully initialized.
+21:24:45.545 PROFILING    : Workbench Reload Game took: 19.460200 ms
+21:24:45.556 PLATFORM     : Save data from container 'settings' have been loaded
+21:24:45.660 PLATFORM     : Save data from container 'sessions' have been loaded
+21:24:45.662 WORLD        : WORLD        : Game::LoadEntities
+21:24:45.663 WORLD        : Game::LoadEntities
+21:24:45.663  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:24:45.663   WORLD     (W): World system SndSystem property Points value differs from legacy setup. current={AfterPostSimulation}, legacy={PostFrame}
+21:24:45.663  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:24:45.663   NETWORK      : Enabled lag compensation, 29 frames with 100 FPS and 280 ms rewind limits.
+21:24:45.663   WORLD     (W): World system SCR_TaskSystem property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:24:45.663   WORLD     (W): World system SCR_AnalyticsApplication property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:24:45.663   WORLD     (W): Using legacy world system SCR_PhysicsObserverSystem. Support for legacy world systems will be removed. Implement InitInfo() function to avoid issues in the future.
+21:24:45.663   WORLD     (W): Execution dependency in system point Frame from world system properties `ProjectileSimulationSystem.ExecuteBefore` or `HandleFireRequestsSystem.ExecuteAfter` does not match legacy setup using `HandleFireRequestsSystem.DependsOn(point: Frame, system: ProjectileSimulationSystem)`. Execution dependency exists only in current setup.
+21:24:45.663   WORLD     (W): Execution dependency in system point Frame from world system properties `HandleAnimatedColliderSystem.ExecuteBefore` or `HandleItemAnimationsSystem.ExecuteAfter` does not match legacy setup using `HandleItemAnimationsSystem.DependsOn(point: Frame, system: HandleAnimatedColliderSystem)`. Execution dependency exists only in current setup.
+21:24:45.663  WORLD        : WORLD        : CreateEntities
+21:24:45.663   WORLD        : WORLD        : CreateEntities
+21:24:45.663    WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:24:45.664     RESOURCES    : Loaded mission headers from 3 addon(s)!
+21:24:45.664    PROFILING    : NotifyBeforeEntitiesCreated took: 1.064600 ms
+21:24:45.664    WORLD        : WORLD        : Wait for preloading data
+21:24:45.664    PROFILING    : Wait for preloading data took: 0.000400 ms
+21:24:45.665  WORLD        : CreateEntities
+21:24:45.665   WORLD        : CreateEntities
+21:24:45.665    RESOURCES (E): Bad texture name ''
+21:24:45.670    ENTITY       : Create entity @"ENTITY:16" ('FactionManager_Editor1', SCR_FactionManager) at <71.217003 2.709000 21.202000>
+21:24:45.670     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:45.670      RESOURCES (E): Wrong GUID/name for resource @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et" in property "m_sEntityPrefab"
+21:24:45.670     RESOURCES    : GetResourceObject @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et"
+21:24:45.670      RESOURCES (E): Failed to open
+21:24:45.670     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:45.670      RESOURCES (E): Wrong GUID/name for resource @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et" in property "m_sEntityPrefab"
+21:24:45.670     RESOURCES    : GetResourceObject @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et"
+21:24:45.670      RESOURCES (E): Failed to open
+21:24:45.670     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:45.670      RESOURCES (E): Wrong GUID/name for resource @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et" in property "m_sEntityPrefab"
+21:24:45.670     RESOURCES    : GetResourceObject @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et"
+21:24:45.670      RESOURCES (E): Failed to open
+21:24:45.670     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:45.670      RESOURCES (E): Wrong GUID/name for resource @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et" in property "m_sEntityPrefab"
+21:24:45.670     RESOURCES    : GetResourceObject @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et"
+21:24:45.670      RESOURCES (E): Failed to open
+21:24:45.861    ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:24:45.861     INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:24:45.874    WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:24:45.874    PROFILING    : NotifyBeforeEntitiesInitialized took: 0.015100 ms
+21:24:45.876    WORLD        : WORLD        : NotifyEntitiesInitialized
+21:24:45.876     TERRAIN      : TERRAIN      : Initializing road networks...
+21:24:45.876     PROFILING    : Initializing road networks... took: 0.003500 ms
+21:24:45.876     INIT         : INIT         : SoundWorldInit
+21:24:45.876     PROFILING    : SoundWorldInit took: 0.131300 ms
+21:24:45.876    PROFILING    : NotifyEntitiesInitialized took: 0.202600 ms
+21:24:45.876   PROFILING    : CreateEntities took: 213.525700 ms
+21:24:45.876  PROFILING    : CreateEntities took: 213.534400 ms
+21:24:45.877  WORLD        : WORLD        : Wait for preloading data around camera
+21:24:45.877  PROFILING    : Wait for preloading data around camera took: 0.000400 ms
+21:24:45.877  WORLD        : WORLD        : EOnActivate
+21:24:45.877  PROFILING    : EOnActivate took: 0.068900 ms
+21:24:45.877 PROFILING    : Game::LoadEntities took: 214.539400 ms
+21:24:45.975 DEFAULT      : Entered offline game state.
+21:24:46.055 NETWORK      : Player connected: connectionID=2147483646
+21:24:46.055 NETWORK      : ### Connecting player: connectionID=2147483646, Name=
+21:24:46.055 NETWORK      : ### Creating player: PlayerId=1, Name=Simsaladoo
+21:24:46.056 ENTITY       : SpawnEntityPrefab @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:24:46.056  ENTITY       : Create entity @"ENTITY:6917529027641081959" ('SCR_PlayerController') at <0.000000 0.000000 0.000000>
+21:24:46.057   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:24:46.057   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:24:46.058   SCRIPT    (W): Can't open config file ""
+21:24:46.058  WORLD        : InitEntities 'world'
+21:24:46.058   ENTITY       : Init entity @"ENTITY:6917529027641081959" ('SCR_PlayerController') at <0.000000 0.000000 0.000000> @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:24:46.058    GUI          : WidgetManager: CrateWidgets @"{3C9DCDD76AB83157}UI/layouts/HUD/HUDLayouts/HUDManager_Root.layout"
+21:24:46.059     SCRIPT    (W): Slot_Chat Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_VON Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_Notifications Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_Hints Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:24:46.063 NETWORK      : ### Updating player: PlayerId=1, Name=Simsaladoo, rplIdentity=0xFFFFFFFE, IdentityId=d6f8d3e7-7ae1-43cd-8d40-37b4cd74f8ac
+21:24:46.063 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:24:46.063 NETWORK      : Players connecting: 0
+21:24:46.064 NETWORK      : Players connected: 1 / 1
+21:24:46.084 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:24:46.084  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:24:46.085  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.045300 ms
+21:24:46.093 PROFILING    : ObjectsHeightMap::Build took: 8.578700 ms
+21:24:46.104 SCRIPT    (W): SCR_RefundPylonSupportStationAction could not find the prefab data in catalog.
+21:24:46.104 SCRIPT    (W): SCR_RefundPylonSupportStationAction could not find the prefab data in catalog.
+21:24:46.109 ENTITY       : SpawnEntityPrefab @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:24:46.109  WORLD        : InitEntities 'world'
+21:24:46.110   ENTITY       : Init entity @"ENTITY:6917529027641081964" ('SCR_AIGroup') at <0.000000 0.000000 0.000000> @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:24:46.110    SCRIPT    (W): Formation of group <0x0000029D70178A40> SCR_AIGroup not found in SCR_AIWorld! Team members will not be spawned.
+21:24:46.120 WORLD        : Frame start
+21:24:46.120  NETWORK      : Projectiles will simulate using: EOnFrame
+21:24:46.121  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:24:46.121 WORLD        : UpdateEntities
+21:24:46.121  WORLD        : Frame
+21:24:46.121   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:24:46.128 WORLD        : UpdateEntities
+21:24:46.128  WORLD        : PostFrame
+21:24:46.128   GUI          : WidgetManager: CrateWidgets @"{D89BBA18F99053D6}UI/layouts/HUD/Chat/ChatHud.layout"
+21:24:46.128    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:25:42.112 WORLD        : UpdateEntities
+21:25:42.112  WORLD        : AfterPostSimulate
+21:25:42.112   DEFAULT   (W): Collider UTM_FG_RotorHub_Bottom not found
+21:25:42.112   DEFAULT   (W): Collider UTM_FG_RotorHub_Upper not found
+21:28:11.875 SCRIPT    (W): SCR_InstigatorContextData: No instigator type is set on Character death. It is likely that the KillerVictimRelation will be set to OTHER_DEATH which will not punish the victim for suicide.
+21:28:15.816 INIT         : INIT         : Workbench Reload Game
+21:28:15.843  ENGINE       : Game destroyed.
+21:28:15.850  GUI          : Using default language (en_us)
+21:28:15.850  GUI          : Loading 'en_us' localization file.
+21:28:15.850  INIT         : INIT         : Loading StringTable
+21:28:15.857  PROFILING    : Loading StringTable took: 6.888100 ms
+21:28:15.858  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:28:15.864  ENGINE       : Game successfully created.
+21:28:15.864  ENGINE       : Game successfully initialized.
+21:28:15.864 PROFILING    : Workbench Reload Game took: 47.486800 ms
+21:28:15.872 WORLD        : WORLD        : CreateEntities 'world'
+21:28:15.876  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:28:15.877  PROFILING    : NotifyBeforeEntitiesCreated took: 0.007300 ms
+21:28:15.877  WORLD        : WORLD        : Wait for preloading data
+21:28:15.877  PROFILING    : Wait for preloading data took: 0.001500 ms
+21:28:15.883 WORLD        : CreateEntities 'world'
+21:28:15.883  RESOURCES (E): Bad texture name ''
+21:28:15.920  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:28:15.920   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:28:15.943  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:28:15.943  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.004700 ms
+21:28:15.969  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:28:15.969   TERRAIN      : TERRAIN      : Initializing road networks...
+21:28:15.969   PROFILING    : Initializing road networks... took: 0.004500 ms
+21:28:15.969  PROFILING    : NotifyEntitiesInitialized took: 0.172100 ms
+21:28:15.969 PROFILING    : CreateEntities took: 97.654800 ms
+21:28:16.174 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:28:16.175  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:28:16.175  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.053200 ms
+21:28:16.184 PROFILING    : ObjectsHeightMap::Build took: 8.835800 ms
+21:28:54.992 ENTITY       : Create entity @"ENTITY:0" ('Vehicle','Assets/Vehicles/Wheeled/BRDM2/BRDM2_base.xob') at <0.000000 0.000000 0.000000>
+21:28:54.992  ENTITY    (W): JumpOut action not set for slot='Passenger' type='CargoCompartmentSlot' [@"ENTITY:0" ('Vehicle','Assets/Vehicles/Wheeled/BRDM2/BRDM2_base.xob') at <0.000000 0.000000 0.000000>]
+21:28:56.878 ENTITY       : Create entity @"ENTITY:0" ('Vehicle','Assets/Vehicles/Wheeled/BRDM2/BRDM2_base.xob') at <0.000000 0.000000 0.000000>
+21:28:56.878  ENTITY    (W): JumpOut action not set for slot='Passenger' type='CargoCompartmentSlot' [@"ENTITY:0" ('Vehicle','Assets/Vehicles/Wheeled/BRDM2/BRDM2_base.xob') at <0.000000 0.000000 0.000000>]
+21:28:56.998 ENTITY       : Create entity @"ENTITY:0" ('Vehicle','Assets/Vehicles/Wheeled/BRDM2/BRDM2_base.xob') at <0.000000 0.000000 0.000000>
+21:28:56.998  ENTITY    (W): JumpOut action not set for slot='Passenger' type='CargoCompartmentSlot' [@"ENTITY:0" ('Vehicle','Assets/Vehicles/Wheeled/BRDM2/BRDM2_base.xob') at <0.000000 0.000000 0.000000>]
+21:28:57.118 ENTITY       : Create entity @"ENTITY:0" ('Vehicle','Assets/Vehicles/Wheeled/BRDM2/BRDM2_base.xob') at <0.000000 0.000000 0.000000>
+21:28:57.118  ENTITY    (W): JumpOut action not set for slot='Passenger' type='CargoCompartmentSlot' [@"ENTITY:0" ('Vehicle','Assets/Vehicles/Wheeled/BRDM2/BRDM2_base.xob') at <0.000000 0.000000 0.000000>]
+21:29:00.158 ENTITY       : Create entity @"ENTITY:4611686018427387918" ('BRDM2_FIA1', Vehicle) at <75.898705 4.777187 43.258709> @"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"
+21:29:00.159  ENTITY    (W): JumpOut action not set for slot='Passenger' type='CargoCompartmentSlot' [@"ENTITY:4611686018427387918" ('BRDM2_FIA1', Vehicle) at <75.898705 4.777187 43.258709> @"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"]
+21:29:02.043 RESOURCES (W): MeshObject @"Assets/Vehicles/Wheeled/BTR70/BTR70_turret.xob" mesh: WaterErase has no texture coordinates!
+21:29:22.958 INIT         : INIT         : Workbench Reload Game
+21:29:22.960  ENGINE       : Game destroyed.
+21:29:22.966  GUI          : Using default language (en_us)
+21:29:22.967  GUI          : Loading 'en_us' localization file.
+21:29:22.967  INIT         : INIT         : Loading StringTable
+21:29:22.973  PROFILING    : Loading StringTable took: 6.767800 ms
+21:29:22.974  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:29:22.979  ENGINE       : Game successfully created.
+21:29:22.979  ENGINE       : Game successfully initialized.
+21:29:22.980 PROFILING    : Workbench Reload Game took: 21.070200 ms
+21:29:22.995 PLATFORM     : Save data from container 'settings' have been loaded
+21:29:23.097 PLATFORM     : Save data from container 'sessions' have been loaded
+21:29:23.100 WORLD        : WORLD        : Game::LoadEntities
+21:29:23.101 WORLD        : Game::LoadEntities
+21:29:23.101  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:29:23.101   WORLD     (W): World system SndSystem property Points value differs from legacy setup. current={AfterPostSimulation}, legacy={PostFrame}
+21:29:23.101  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:29:23.101   NETWORK      : Enabled lag compensation, 29 frames with 100 FPS and 280 ms rewind limits.
+21:29:23.101   WORLD     (W): World system SCR_TaskSystem property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:29:23.101   WORLD     (W): World system SCR_AnalyticsApplication property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:29:23.101   WORLD     (W): Using legacy world system SCR_PhysicsObserverSystem. Support for legacy world systems will be removed. Implement InitInfo() function to avoid issues in the future.
+21:29:23.101   WORLD     (W): Execution dependency in system point Frame from world system properties `ProjectileSimulationSystem.ExecuteBefore` or `HandleFireRequestsSystem.ExecuteAfter` does not match legacy setup using `HandleFireRequestsSystem.DependsOn(point: Frame, system: ProjectileSimulationSystem)`. Execution dependency exists only in current setup.
+21:29:23.101   WORLD     (W): Execution dependency in system point Frame from world system properties `HandleAnimatedColliderSystem.ExecuteBefore` or `HandleItemAnimationsSystem.ExecuteAfter` does not match legacy setup using `HandleItemAnimationsSystem.DependsOn(point: Frame, system: HandleAnimatedColliderSystem)`. Execution dependency exists only in current setup.
+21:29:23.101  WORLD        : WORLD        : CreateEntities
+21:29:23.101   WORLD        : WORLD        : CreateEntities
+21:29:23.101    WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:29:23.102     RESOURCES    : Loaded mission headers from 3 addon(s)!
+21:29:23.102    PROFILING    : NotifyBeforeEntitiesCreated took: 1.079000 ms
+21:29:23.102    WORLD        : WORLD        : Wait for preloading data
+21:29:23.102    PROFILING    : Wait for preloading data took: 0.000300 ms
+21:29:23.105  WORLD        : CreateEntities
+21:29:23.105   WORLD        : CreateEntities
+21:29:23.105    RESOURCES (E): Bad texture name ''
+21:29:23.110    ENTITY       : Create entity @"ENTITY:16" ('FactionManager_Editor1', SCR_FactionManager) at <71.217003 2.709000 21.202000>
+21:29:23.110     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:29:23.110      RESOURCES (E): Wrong GUID/name for resource @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et" in property "m_sEntityPrefab"
+21:29:23.110     RESOURCES    : GetResourceObject @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et"
+21:29:23.110      RESOURCES (E): Failed to open
+21:29:23.110     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:29:23.110      RESOURCES (E): Wrong GUID/name for resource @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et" in property "m_sEntityPrefab"
+21:29:23.110     RESOURCES    : GetResourceObject @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et"
+21:29:23.110      RESOURCES (E): Failed to open
+21:29:23.110     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:29:23.110      RESOURCES (E): Wrong GUID/name for resource @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et" in property "m_sEntityPrefab"
+21:29:23.110     RESOURCES    : GetResourceObject @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et"
+21:29:23.110      RESOURCES (E): Failed to open
+21:29:23.110     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:29:23.110      RESOURCES (E): Wrong GUID/name for resource @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et" in property "m_sEntityPrefab"
+21:29:23.110     RESOURCES    : GetResourceObject @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et"
+21:29:23.110      RESOURCES (E): Failed to open
+21:29:23.281    ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:29:23.281     INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:29:23.309    ENTITY       : Create entity @"ENTITY:4611686018427387918" ('BRDM2_FIA1', Vehicle) at <75.898705 4.777187 43.258709> @"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"
+21:29:23.309     ENTITY    (W): JumpOut action not set for slot='Passenger' type='CargoCompartmentSlot' [@"ENTITY:4611686018427387918" ('BRDM2_FIA1', Vehicle) at <75.898705 4.777187 43.258709> @"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"]
+21:29:23.422    WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:29:23.422    PROFILING    : NotifyBeforeEntitiesInitialized took: 0.011400 ms
+21:29:23.425    WORLD        : WORLD        : NotifyEntitiesInitialized
+21:29:23.425     TERRAIN      : TERRAIN      : Initializing road networks...
+21:29:23.425     PROFILING    : Initializing road networks... took: 0.004200 ms
+21:29:23.425     INIT         : INIT         : SoundWorldInit
+21:29:23.425     PROFILING    : SoundWorldInit took: 0.134300 ms
+21:29:23.425    PROFILING    : NotifyEntitiesInitialized took: 0.209000 ms
+21:29:23.425   PROFILING    : CreateEntities took: 324.066700 ms
+21:29:23.425  PROFILING    : CreateEntities took: 324.075100 ms
+21:29:23.426  WORLD        : WORLD        : Wait for preloading data around camera
+21:29:23.527  PROFILING    : Wait for preloading data around camera took: 101.473200 ms
+21:29:23.527  WORLD        : WORLD        : EOnActivate
+21:29:23.527  PROFILING    : EOnActivate took: 0.098200 ms
+21:29:23.527 PROFILING    : Game::LoadEntities took: 426.882200 ms
+21:29:23.602 DEFAULT      : Entered offline game state.
+21:29:23.695 NETWORK      : Player connected: connectionID=2147483646
+21:29:23.696 NETWORK      : ### Connecting player: connectionID=2147483646, Name=
+21:29:23.696 NETWORK      : ### Creating player: PlayerId=1, Name=Simsaladoo
+21:29:23.697 ENTITY       : SpawnEntityPrefab @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:29:23.698  ENTITY       : Create entity @"ENTITY:6917529027641082334" ('SCR_PlayerController') at <0.000000 0.000000 0.000000>
+21:29:23.698   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:29:23.698   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:29:23.699   SCRIPT    (W): Can't open config file ""
+21:29:23.700  WORLD        : InitEntities 'world'
+21:29:23.701   ENTITY       : Init entity @"ENTITY:6917529027641082334" ('SCR_PlayerController') at <0.000000 0.000000 0.000000> @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:29:23.701    GUI          : WidgetManager: CrateWidgets @"{3C9DCDD76AB83157}UI/layouts/HUD/HUDLayouts/HUDManager_Root.layout"
+21:29:23.701     SCRIPT    (W): Slot_Chat Has no Content!
+21:29:23.701     SCRIPT    (W): Slot_VON Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_Notifications Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_Hints Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:29:23.710 NETWORK      : ### Updating player: PlayerId=1, Name=Simsaladoo, rplIdentity=0xFFFFFFFE, IdentityId=d6f8d3e7-7ae1-43cd-8d40-37b4cd74f8ac
+21:29:23.710 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:29:23.710 NETWORK      : Players connecting: 0
+21:29:23.710 NETWORK      : Players connected: 1 / 1
+21:29:23.730 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:29:23.730  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:29:23.731  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.053700 ms
+21:29:23.739 PROFILING    : ObjectsHeightMap::Build took: 8.796400 ms
+21:29:23.767 ENTITY       : SpawnEntityPrefab @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:29:23.767  WORLD        : InitEntities 'world'
+21:29:23.767   ENTITY       : Init entity @"ENTITY:6917529027641082339" ('SCR_AIGroup') at <0.000000 0.000000 0.000000> @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:29:23.767    SCRIPT    (W): Formation of group <0x0000029D9588FBE0> SCR_AIGroup not found in SCR_AIWorld! Team members will not be spawned.
+21:29:23.777 WORLD        : Frame start
+21:29:23.777  NETWORK      : Projectiles will simulate using: EOnFrame
+21:29:23.778  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:29:23.778 WORLD        : UpdateEntities
+21:29:23.778  WORLD        : Frame
+21:29:23.778   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:29:23.785 WORLD        : UpdateEntities
+21:29:23.785  WORLD        : PostFrame
+21:29:23.786   GUI          : WidgetManager: CrateWidgets @"{D89BBA18F99053D6}UI/layouts/HUD/Chat/ChatHud.layout"
+21:29:23.786    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:30:03.334 WORLD        : UpdateEntities
+21:30:03.334  WORLD        : PostFrame
+21:30:03.334   GUI       (E): ImageWidget 'm_Outline': Can't load mask from ImageSet 'UI/Textures/Icons/icons_mouse/icons_mouse.imageset'
+21:30:07.765 WORLD        : UpdateEntities
+21:30:07.766  WORLD        : FixedFrame
+21:30:07.766   ANIMATION    : AnimUpdate
+21:30:07.766    VEHICLE      : Not turning in because character is not turned out.
+21:30:07.792 WORLD        : UpdateEntities
+21:30:07.792  WORLD        : FixedFrame
+21:30:07.792   ANIMATION    : AnimUpdate
+21:30:07.792    VEHICLE      : Not turning in because character is not turned out.
+21:30:07.832 WORLD        : UpdateEntities
+21:30:07.833  WORLD        : FixedFrame
+21:30:07.833   ANIMATION    : AnimUpdate
+21:30:07.833    VEHICLE      : Not turning in because character is not turned out.
+21:30:07.866 WORLD        : UpdateEntities
+21:30:07.866  WORLD        : FixedFrame
+21:30:07.866   ANIMATION    : AnimUpdate
+21:30:07.866    VEHICLE      : Not turning in because character is not turned out.
+21:30:07.928 WORLD        : UpdateEntities
+21:30:07.928  WORLD        : FixedFrame
+21:30:07.928   ANIMATION    : AnimUpdate
+21:30:07.928    VEHICLE      : Not turning in because character is not turned out.
+21:30:43.644 WORLD        : UpdateEntities
+21:30:43.644  WORLD        : PostFrame
+21:30:43.644   GUI       (E): ImageWidget 'm_Outline': Can't load mask from ImageSet 'UI/Textures/Icons/icons_mouse/icons_mouse.imageset'
+21:31:06.840 WORLD        : UpdateEntities
+21:31:06.840  WORLD        : PostFrame
+21:31:06.840   GUI       (E): ImageWidget 'm_Outline': Can't load mask from ImageSet 'UI/Textures/Icons/icons_mouse/icons_mouse.imageset'
+21:32:03.654 WORLD        : UpdateEntities
+21:32:03.654  WORLD        : PostFrame
+21:32:03.654   GUI       (E): ImageWidget 'm_Outline': Can't load mask from ImageSet 'UI/Textures/Icons/icons_mouse/icons_mouse.imageset'
+21:33:33.355 WORLD        : UpdateEntities
+21:33:33.355  WORLD        : PostFrame
+21:33:33.355   GUI       (E): ImageWidget 'm_Outline': Can't load mask from ImageSet 'UI/Textures/Icons/icons_mouse/icons_mouse.imageset'
+21:33:41.782 WORLD        : UpdateEntities
+21:33:41.782  WORLD        : Frame
+21:33:41.782   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:41.884 WORLD        : UpdateEntities
+21:33:41.884  WORLD        : Frame
+21:33:41.884   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:41.997 WORLD        : UpdateEntities
+21:33:41.997  WORLD        : Frame
+21:33:41.997   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:42.081 WORLD        : UpdateEntities
+21:33:42.081  WORLD        : Frame
+21:33:42.081   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:42.184 WORLD        : UpdateEntities
+21:33:42.184  WORLD        : Frame
+21:33:42.184   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:42.281 WORLD        : UpdateEntities
+21:33:42.281  WORLD        : Frame
+21:33:42.281   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:42.383 WORLD        : UpdateEntities
+21:33:42.383  WORLD        : Frame
+21:33:42.383   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:42.482 WORLD        : UpdateEntities
+21:33:42.482  WORLD        : Frame
+21:33:42.482   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:42.582 WORLD        : UpdateEntities
+21:33:42.582  WORLD        : Frame
+21:33:42.582   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:42.681 WORLD        : UpdateEntities
+21:33:42.681  WORLD        : Frame
+21:33:42.681   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:42.788 WORLD        : UpdateEntities
+21:33:42.788  WORLD        : Frame
+21:33:42.788   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:42.882 WORLD        : UpdateEntities
+21:33:42.882  WORLD        : Frame
+21:33:42.882   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:42.988 WORLD        : UpdateEntities
+21:33:42.988  WORLD        : Frame
+21:33:42.989   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:43.083 WORLD        : UpdateEntities
+21:33:43.083  WORLD        : Frame
+21:33:43.084   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:43.188 WORLD        : UpdateEntities
+21:33:43.188  WORLD        : Frame
+21:33:43.188   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:43.283 WORLD        : UpdateEntities
+21:33:43.283  WORLD        : Frame
+21:33:43.283   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:43.387 WORLD        : UpdateEntities
+21:33:43.387  WORLD        : Frame
+21:33:43.387   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:43.482 WORLD        : UpdateEntities
+21:33:43.482  WORLD        : Frame
+21:33:43.482   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:43.588 WORLD        : UpdateEntities
+21:33:43.589  WORLD        : Frame
+21:33:43.589   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:43.682 WORLD        : UpdateEntities
+21:33:43.682  WORLD        : Frame
+21:33:43.682   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:43.786 WORLD        : UpdateEntities
+21:33:43.786  WORLD        : Frame
+21:33:43.786   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:43.891 WORLD        : UpdateEntities
+21:33:43.891  WORLD        : Frame
+21:33:43.891   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:43.994 WORLD        : UpdateEntities
+21:33:44.003  WORLD        : Frame
+21:33:44.003   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:44.087 WORLD        : UpdateEntities
+21:33:44.087  WORLD        : Frame
+21:33:44.087   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:44.191 WORLD        : UpdateEntities
+21:33:44.191  WORLD        : Frame
+21:33:44.191   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:44.284 WORLD        : UpdateEntities
+21:33:44.284  WORLD        : Frame
+21:33:44.285   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:44.387 WORLD        : UpdateEntities
+21:33:44.387  WORLD        : Frame
+21:33:44.387   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:44.487 WORLD        : UpdateEntities
+21:33:44.487  WORLD        : Frame
+21:33:44.488   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:44.590 WORLD        : UpdateEntities
+21:33:44.590  WORLD        : Frame
+21:33:44.590   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:44.693 WORLD        : UpdateEntities
+21:33:44.693  WORLD        : Frame
+21:33:44.694   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:44.789 WORLD        : UpdateEntities
+21:33:44.790  WORLD        : Frame
+21:33:44.790   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:44.893 WORLD        : UpdateEntities
+21:33:44.893  WORLD        : Frame
+21:33:44.893   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:44.995 WORLD        : UpdateEntities
+21:33:45.002  WORLD        : Frame
+21:33:45.002   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:45.086 WORLD        : UpdateEntities
+21:33:45.086  WORLD        : Frame
+21:33:45.087   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:45.191 WORLD        : UpdateEntities
+21:33:45.191  WORLD        : Frame
+21:33:45.192   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:45.295 WORLD        : UpdateEntities
+21:33:45.295  WORLD        : Frame
+21:33:45.295   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:45.384 WORLD        : UpdateEntities
+21:33:45.384  WORLD        : Frame
+21:33:45.385   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:45.487 WORLD        : UpdateEntities
+21:33:45.487  WORLD        : Frame
+21:33:45.487   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:45.589 WORLD        : UpdateEntities
+21:33:45.589  WORLD        : Frame
+21:33:45.589   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:45.692 WORLD        : UpdateEntities
+21:33:45.692  WORLD        : Frame
+21:33:45.692   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:45.796 WORLD        : UpdateEntities
+21:33:45.796  WORLD        : Frame
+21:33:45.796   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:45.887 WORLD        : UpdateEntities
+21:33:45.887  WORLD        : Frame
+21:33:45.887   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:45.992 WORLD        : UpdateEntities
+21:33:45.992  WORLD        : Frame
+21:33:45.992   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:46.101 WORLD        : UpdateEntities
+21:33:46.101  WORLD        : Frame
+21:33:46.102   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:33:46.185 WORLD        : UpdateEntities
+21:33:46.185  WORLD        : Frame
+21:33:46.186   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:46.295 WORLD        : UpdateEntities
+21:33:46.295  WORLD        : Frame
+21:33:46.296   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:46.401 WORLD        : UpdateEntities
+21:33:46.401  WORLD        : Frame
+21:33:46.401   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:46.494 WORLD        : UpdateEntities
+21:33:46.494  WORLD        : Frame
+21:33:46.494   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:46.591 WORLD        : UpdateEntities
+21:33:46.591  WORLD        : Frame
+21:33:46.591   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:33:46.689 WORLD        : UpdateEntities
+21:33:46.689  WORLD        : Frame
+21:33:46.689   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:13.252 WORLD        : UpdateEntities
+21:34:13.252  WORLD        : Frame
+21:34:13.252   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:13.360 WORLD        : UpdateEntities
+21:34:13.360  WORLD        : Frame
+21:34:13.360   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:13.454 WORLD        : UpdateEntities
+21:34:13.454  WORLD        : Frame
+21:34:13.454   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:13.557 WORLD        : UpdateEntities
+21:34:13.557  WORLD        : Frame
+21:34:13.557   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:13.659 WORLD        : UpdateEntities
+21:34:13.659  WORLD        : Frame
+21:34:13.659   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:13.753 WORLD        : UpdateEntities
+21:34:13.753  WORLD        : Frame
+21:34:13.753   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:13.861 WORLD        : UpdateEntities
+21:34:13.861  WORLD        : Frame
+21:34:13.861   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:13.955 WORLD        : UpdateEntities
+21:34:13.955  WORLD        : Frame
+21:34:13.955   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:14.054 WORLD        : UpdateEntities
+21:34:14.054  WORLD        : Frame
+21:34:14.054   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:14.151 WORLD        : UpdateEntities
+21:34:14.152  WORLD        : Frame
+21:34:14.152   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:14.257 WORLD        : UpdateEntities
+21:34:14.257  WORLD        : Frame
+21:34:14.257   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:14.355 WORLD        : UpdateEntities
+21:34:14.355  WORLD        : Frame
+21:34:14.355   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:14.457 WORLD        : UpdateEntities
+21:34:14.457  WORLD        : Frame
+21:34:14.457   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:14.555 WORLD        : UpdateEntities
+21:34:14.555  WORLD        : Frame
+21:34:14.555   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:14.655 WORLD        : UpdateEntities
+21:34:14.655  WORLD        : Frame
+21:34:14.655   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:14.756 WORLD        : UpdateEntities
+21:34:14.756  WORLD        : Frame
+21:34:14.757   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:14.852 WORLD        : UpdateEntities
+21:34:14.852  WORLD        : Frame
+21:34:14.852   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:14.949 WORLD        : UpdateEntities
+21:34:14.949  WORLD        : Frame
+21:34:14.949   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:15.063 WORLD        : UpdateEntities
+21:34:15.063  WORLD        : Frame
+21:34:15.063   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:15.159 WORLD        : UpdateEntities
+21:34:15.159  WORLD        : Frame
+21:34:15.159   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:15.259 WORLD        : UpdateEntities
+21:34:15.259  WORLD        : Frame
+21:34:15.259   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:15.354 WORLD        : UpdateEntities
+21:34:15.354  WORLD        : Frame
+21:34:15.354   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:15.458 WORLD        : UpdateEntities
+21:34:15.458  WORLD        : Frame
+21:34:15.458   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:15.558 WORLD        : UpdateEntities
+21:34:15.558  WORLD        : Frame
+21:34:15.558   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:15.652 WORLD        : UpdateEntities
+21:34:15.652  WORLD        : Frame
+21:34:15.652   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:15.756 WORLD        : UpdateEntities
+21:34:15.756  WORLD        : Frame
+21:34:15.756   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:15.854 WORLD        : UpdateEntities
+21:34:15.854  WORLD        : Frame
+21:34:15.855   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:15.959 WORLD        : UpdateEntities
+21:34:15.959  WORLD        : Frame
+21:34:15.959   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:16.064 WORLD        : UpdateEntities
+21:34:16.064  WORLD        : Frame
+21:34:16.064   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:16.158 WORLD        : UpdateEntities
+21:34:16.158  WORLD        : Frame
+21:34:16.158   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:16.253 WORLD        : UpdateEntities
+21:34:16.253  WORLD        : Frame
+21:34:16.254   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:16.353 WORLD        : UpdateEntities
+21:34:16.353  WORLD        : Frame
+21:34:16.353   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:18.055 WORLD        : UpdateEntities
+21:34:18.056  WORLD        : Frame
+21:34:18.056   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:18.157 WORLD        : UpdateEntities
+21:34:18.157  WORLD        : Frame
+21:34:18.157   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:18.262 WORLD        : UpdateEntities
+21:34:18.262  WORLD        : Frame
+21:34:18.262   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:18.361 WORLD        : UpdateEntities
+21:34:18.361  WORLD        : Frame
+21:34:18.361   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:18.465 WORLD        : UpdateEntities
+21:34:18.465  WORLD        : Frame
+21:34:18.465   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:18.562 WORLD        : UpdateEntities
+21:34:18.562  WORLD        : Frame
+21:34:18.562   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:18.664 WORLD        : UpdateEntities
+21:34:18.664  WORLD        : Frame
+21:34:18.664   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:18.769 WORLD        : UpdateEntities
+21:34:18.769  WORLD        : Frame
+21:34:18.769   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:18.864 WORLD        : UpdateEntities
+21:34:18.864  WORLD        : Frame
+21:34:18.864   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:18.966 WORLD        : UpdateEntities
+21:34:18.966  WORLD        : Frame
+21:34:18.966   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:19.060 WORLD        : UpdateEntities
+21:34:19.060  WORLD        : Frame
+21:34:19.060   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:19.160 WORLD        : UpdateEntities
+21:34:19.160  WORLD        : Frame
+21:34:19.160   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_API_57BZ561S.et via EntityPool
+21:34:19.264 WORLD        : UpdateEntities
+21:34:19.264  WORLD        : Frame
+21:34:19.264   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:19.365 WORLD        : UpdateEntities
+21:34:19.365  WORLD        : Frame
+21:34:19.365   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:19.466 WORLD        : UpdateEntities
+21:34:19.466  WORLD        : Frame
+21:34:19.466   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:19.562 WORLD        : UpdateEntities
+21:34:19.562  WORLD        : Frame
+21:34:19.562   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:19.665 WORLD        : UpdateEntities
+21:34:19.665  WORLD        : Frame
+21:34:19.665   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:19.760 WORLD        : UpdateEntities
+21:34:19.760  WORLD        : Frame
+21:34:19.760   DEFAULT   (W): Trying to spawn an unregistered prefab Prefabs/Weapons/Ammo/Ammo_145x114_APIT_57BZT561S.et via EntityPool
+21:34:23.132 INIT         : INIT         : Workbench Reload Game
+21:34:23.178  ENGINE       : Game destroyed.
+21:34:23.188  GUI          : Using default language (en_us)
+21:34:23.188  GUI          : Loading 'en_us' localization file.
+21:34:23.189  INIT         : INIT         : Loading StringTable
+21:34:23.196  PROFILING    : Loading StringTable took: 7.369300 ms
+21:34:23.196  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:34:23.203  ENGINE       : Game successfully created.
+21:34:23.204  ENGINE       : Game successfully initialized.
+21:34:23.204 PROFILING    : Workbench Reload Game took: 70.783700 ms
+21:34:23.211 WORLD        : WORLD        : CreateEntities 'world'
+21:34:23.216  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:34:23.216  PROFILING    : NotifyBeforeEntitiesCreated took: 0.007900 ms
+21:34:23.216  WORLD        : WORLD        : Wait for preloading data
+21:34:23.216  PROFILING    : Wait for preloading data took: 0.001500 ms
+21:34:23.223 WORLD        : CreateEntities 'world'
+21:34:23.223  RESOURCES (E): Bad texture name ''
+21:34:23.255  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:34:23.255   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:34:23.269  ENTITY       : Create entity @"ENTITY:4611686018427387918" ('BRDM2_FIA1', Vehicle) at <75.898705 4.777187 43.258709> @"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"
+21:34:23.269   ENTITY    (W): JumpOut action not set for slot='Passenger' type='CargoCompartmentSlot' [@"ENTITY:4611686018427387918" ('BRDM2_FIA1', Vehicle) at <75.898705 4.777187 43.258709> @"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"]
+21:34:23.299  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:34:23.299  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.004800 ms
+21:34:23.333  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:34:23.333   TERRAIN      : TERRAIN      : Initializing road networks...
+21:34:23.333   PROFILING    : Initializing road networks... took: 0.004600 ms
+21:34:23.333  PROFILING    : NotifyEntitiesInitialized took: 0.163300 ms
+21:34:23.333 PROFILING    : CreateEntities took: 121.583100 ms
+21:34:23.530 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:34:23.530  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:34:23.531  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.050000 ms
+21:34:23.540 PROFILING    : ObjectsHeightMap::Build took: 9.838500 ms
+21:34:27.372 ENTITY       : Create entity @"ENTITY:0" ('Vehicle','Assets/Vehicles/Wheeled/M923A1/M923A1_BASE.xob') at <0.000000 0.000000 0.000000>
+21:34:27.373  ENTITY       : SpawnEntityPrefab @"{DCE16D92C350D64F}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_combox.et"
+21:34:27.373   ENTITY       : Create entity @"ENTITY:4838" ('GenericEntity','Assets/Vehicles/Wheeled/M923A1/M923A1_COM.xob') at <0.000000 0.000000 0.000000> @"{DCE16D92C350D64F}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_combox.et"
+21:34:27.373    SCRIPT    (W): SCR_ResourceGeneratorContainerQueue:
+	Policy at index 0 does not have a defined storage queue.
+	Using default storage queue instead.
+21:34:27.373    SCRIPT    (W): SCR_ResourceGeneratorContainerQueue:
+	Policy at index 1 does not have a defined storage queue.
+	Using default storage queue instead.
+21:34:27.484 ENTITY       : Create entity @"ENTITY:0" ('Vehicle','Assets/Vehicles/Wheeled/M923A1/M923A1_BASE.xob') at <0.000000 0.000000 0.000000>
+21:34:27.484  ENTITY       : SpawnEntityPrefab @"{5E3606C2EE668D0F}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_combox_MERDC.et"
+21:34:27.484   ENTITY       : Create entity @"ENTITY:4885" ('GenericEntity','Assets/Vehicles/Wheeled/M923A1/M923A1_COM.xob') at <0.000000 0.000000 0.000000> @"{5E3606C2EE668D0F}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_combox_MERDC.et"
+21:34:27.485    SCRIPT    (W): SCR_ResourceGeneratorContainerQueue:
+	Policy at index 0 does not have a defined storage queue.
+	Using default storage queue instead.
+21:34:27.485    SCRIPT    (W): SCR_ResourceGeneratorContainerQueue:
+	Policy at index 1 does not have a defined storage queue.
+	Using default storage queue instead.
+21:34:39.031 INIT         : INIT         : Workbench Reload Game
+21:34:39.032  ENGINE       : Game destroyed.
+21:34:39.038  GUI          : Using default language (en_us)
+21:34:39.038  GUI          : Loading 'en_us' localization file.
+21:34:39.038  INIT         : INIT         : Loading StringTable
+21:34:39.045  PROFILING    : Loading StringTable took: 6.889600 ms
+21:34:39.045  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:34:39.051  ENGINE       : Game successfully created.
+21:34:39.051  ENGINE       : Game successfully initialized.
+21:34:39.051 PROFILING    : Workbench Reload Game took: 20.587900 ms
+21:34:39.063 PLATFORM     : Save data from container 'settings' have been loaded
+21:34:39.165 PLATFORM     : Save data from container 'sessions' have been loaded
+21:34:39.168 WORLD        : WORLD        : Game::LoadEntities
+21:34:39.168 WORLD        : Game::LoadEntities
+21:34:39.168  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:34:39.168   WORLD     (W): World system SndSystem property Points value differs from legacy setup. current={AfterPostSimulation}, legacy={PostFrame}
+21:34:39.169  WORLD        : Initializing world systems @"{1C60D2EDA2B468B8}Configs/Systems/BaseGameModeSystems.conf"
+21:34:39.169   NETWORK      : Enabled lag compensation, 29 frames with 100 FPS and 280 ms rewind limits.
+21:34:39.169   WORLD     (W): World system SCR_TaskSystem property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:34:39.169   WORLD     (W): World system SCR_AnalyticsApplication property Points value differs from legacy setup. current={Frame}, legacy={FixedFrame}
+21:34:39.169   WORLD     (W): Using legacy world system SCR_PhysicsObserverSystem. Support for legacy world systems will be removed. Implement InitInfo() function to avoid issues in the future.
+21:34:39.169   WORLD     (W): Execution dependency in system point Frame from world system properties `ProjectileSimulationSystem.ExecuteBefore` or `HandleFireRequestsSystem.ExecuteAfter` does not match legacy setup using `HandleFireRequestsSystem.DependsOn(point: Frame, system: ProjectileSimulationSystem)`. Execution dependency exists only in current setup.
+21:34:39.169   WORLD     (W): Execution dependency in system point Frame from world system properties `HandleAnimatedColliderSystem.ExecuteBefore` or `HandleItemAnimationsSystem.ExecuteAfter` does not match legacy setup using `HandleItemAnimationsSystem.DependsOn(point: Frame, system: HandleAnimatedColliderSystem)`. Execution dependency exists only in current setup.
+21:34:39.169  WORLD        : WORLD        : CreateEntities
+21:34:39.169   WORLD        : WORLD        : CreateEntities
+21:34:39.169    WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:34:39.170     RESOURCES    : Loaded mission headers from 3 addon(s)!
+21:34:39.170    PROFILING    : NotifyBeforeEntitiesCreated took: 1.164000 ms
+21:34:39.170    WORLD        : WORLD        : Wait for preloading data
+21:34:39.170    PROFILING    : Wait for preloading data took: 0.000600 ms
+21:34:39.172  WORLD        : CreateEntities
+21:34:39.172   WORLD        : CreateEntities
+21:34:39.172    RESOURCES (E): Bad texture name ''
+21:34:39.177    ENTITY       : Create entity @"ENTITY:16" ('FactionManager_Editor1', SCR_FactionManager) at <71.217003 2.709000 21.202000>
+21:34:39.177     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:34:39.177      RESOURCES (E): Wrong GUID/name for resource @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et" in property "m_sEntityPrefab"
+21:34:39.178     RESOURCES    : GetResourceObject @"{A7C81A3FCFF787E7}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_MERDC.et"
+21:34:39.178      RESOURCES (E): Failed to open
+21:34:39.178     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:34:39.178      RESOURCES (E): Wrong GUID/name for resource @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et" in property "m_sEntityPrefab"
+21:34:39.178     RESOURCES    : GetResourceObject @"{D5D95E9E6F5CD081}Prefabs/Vehicles/Tracked/M113/APC_M113_unarmed_green.et"
+21:34:39.178      RESOURCES (E): Failed to open
+21:34:39.178     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:34:39.178      RESOURCES (E): Wrong GUID/name for resource @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et" in property "m_sEntityPrefab"
+21:34:39.178     RESOURCES    : GetResourceObject @"{F109153233BC41FB}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_MERDC.et"
+21:34:39.178      RESOURCES (E): Failed to open
+21:34:39.178     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:34:39.178      RESOURCES (E): Wrong GUID/name for resource @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et" in property "m_sEntityPrefab"
+21:34:39.178     RESOURCES    : GetResourceObject @"{19CB7572B7B7A859}Prefabs/Vehicles/Tracked/M113/APC_M113_M2HB_green.et"
+21:34:39.178      RESOURCES (E): Failed to open
+21:34:39.347    ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:34:39.347     INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:34:39.356    ENTITY       : Create entity @"ENTITY:4611686018427387918" ('BRDM2_FIA1', Vehicle) at <75.898705 4.777187 43.258709> @"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"
+21:34:39.356     ENTITY    (W): JumpOut action not set for slot='Passenger' type='CargoCompartmentSlot' [@"ENTITY:4611686018427387918" ('BRDM2_FIA1', Vehicle) at <75.898705 4.777187 43.258709> @"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"]
+21:34:39.403    ENTITY       : Create entity @"ENTITY:4611686018427387926" ('M923A1', Vehicle) at <79.883385 4.837996 60.188934> @"{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et"
+21:34:39.403     DEFAULT   (W): BaseRadioComponent does not have any transceiver. (Entity: @"ENTITY:4611686018427387926" ('M923A1', Vehicle) at <79.883385 4.837996 60.188934> @"{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et"). Only printing this message once. There're possibly more nodes with this requirement.
+21:34:39.419    WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:34:39.419    PROFILING    : NotifyBeforeEntitiesInitialized took: 0.012500 ms
+21:34:39.423    WORLD        : WORLD        : NotifyEntitiesInitialized
+21:34:39.423     TERRAIN      : TERRAIN      : Initializing road networks...
+21:34:39.423     PROFILING    : Initializing road networks... took: 0.003700 ms
+21:34:39.423     INIT         : INIT         : SoundWorldInit
+21:34:39.423     PROFILING    : SoundWorldInit took: 0.141300 ms
+21:34:39.423    PROFILING    : NotifyEntitiesInitialized took: 0.311500 ms
+21:34:39.423   PROFILING    : CreateEntities took: 254.244700 ms
+21:34:39.423  PROFILING    : CreateEntities took: 254.253500 ms
+21:34:39.423  WORLD        : WORLD        : Wait for preloading data around camera
+21:34:39.525  PROFILING    : Wait for preloading data around camera took: 101.195800 ms
+21:34:39.525  WORLD        : WORLD        : EOnActivate
+21:34:39.525  PROFILING    : EOnActivate took: 0.128400 ms
+21:34:39.525 PROFILING    : Game::LoadEntities took: 356.783100 ms
+21:34:39.574 DEFAULT      : Entered offline game state.
+21:34:39.661 NETWORK      : Player connected: connectionID=2147483646
+21:34:39.661 NETWORK      : ### Connecting player: connectionID=2147483646, Name=
+21:34:39.661 NETWORK      : ### Creating player: PlayerId=1, Name=Simsaladoo
+21:34:39.662 ENTITY       : SpawnEntityPrefab @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:34:39.663  ENTITY       : Create entity @"ENTITY:6917529027641082427" ('SCR_PlayerController') at <0.000000 0.000000 0.000000>
+21:34:39.663   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:34:39.663   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:34:39.664   SCRIPT    (W): Can't open config file ""
+21:34:39.664  WORLD        : InitEntities 'world'
+21:34:39.665   ENTITY       : Init entity @"ENTITY:6917529027641082427" ('SCR_PlayerController') at <0.000000 0.000000 0.000000> @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+21:34:39.665    GUI          : WidgetManager: CrateWidgets @"{3C9DCDD76AB83157}UI/layouts/HUD/HUDLayouts/HUDManager_Root.layout"
+21:34:39.665     SCRIPT    (W): Slot_Chat Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_VON Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_Notifications Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_Hints Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:34:39.669 NETWORK      : ### Updating player: PlayerId=1, Name=Simsaladoo, rplIdentity=0xFFFFFFFE, IdentityId=d6f8d3e7-7ae1-43cd-8d40-37b4cd74f8ac
+21:34:39.669 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:34:39.669 NETWORK      : Players connecting: 0
+21:34:39.670 NETWORK      : Players connected: 1 / 1
+21:34:39.689 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:34:39.689  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:34:39.690  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.050600 ms
+21:34:39.698 PROFILING    : ObjectsHeightMap::Build took: 8.950900 ms
+21:34:39.715 ENTITY       : SpawnEntityPrefab @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:34:39.715  WORLD        : InitEntities 'world'
+21:34:39.715   ENTITY       : Init entity @"ENTITY:6917529027641082432" ('SCR_AIGroup') at <0.000000 0.000000 0.000000> @"{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+21:34:39.715    SCRIPT    (W): Formation of group <0x0000029D95890360> SCR_AIGroup not found in SCR_AIWorld! Team members will not be spawned.
+21:34:39.725 WORLD        : Frame start
+21:34:39.725  NETWORK      : Projectiles will simulate using: EOnFrame
+21:34:39.726  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:34:39.726 WORLD        : UpdateEntities
+21:34:39.726  WORLD        : Frame
+21:34:39.726   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:34:39.734 WORLD        : UpdateEntities
+21:34:39.734  WORLD        : PostFrame
+21:34:39.734   GUI          : WidgetManager: CrateWidgets @"{D89BBA18F99053D6}UI/layouts/HUD/Chat/ChatHud.layout"
+21:34:39.734    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:35:09.264 WORLD        : UpdateEntities
+21:35:09.264  WORLD        : PostFrame
+21:35:09.264   GUI       (E): ImageWidget 'm_Outline': Can't load mask from ImageSet 'UI/Textures/Icons/icons_mouse/icons_mouse.imageset'
+21:36:36.439 WORLD        : UpdateEntities
+21:36:36.439  WORLD        : PostFrame
+21:36:36.439   GUI          : Creating menu 'Inventory20Menu'
+21:36:36.439    GUI          : WidgetManager: CrateWidgets @"{981ACF4F45EAECAE}UI/layouts/Menus/Inventory/InventoryMain.layout"
+21:36:36.439     SCRIPT    (W): Slot_VON Has no Content!
+21:36:36.439     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:36:36.555 GUI       (E): OverlayWidget Frame0 has invalid slot GridWidgetSlot for slot manipulation function used, expected: LayoutSlot
+21:36:36.555 GUI       (E): OverlayWidget Frame0 has invalid slot GridWidgetSlot for slot manipulation function used, expected: LayoutSlot
+21:36:38.853 INIT         : INIT         : Workbench Reload Game
+21:36:38.895  ENGINE       : Game destroyed.
+21:36:38.903  GUI          : Using default language (en_us)
+21:36:38.904  GUI          : Loading 'en_us' localization file.
+21:36:38.904  INIT         : INIT         : Loading StringTable
+21:36:38.912  PROFILING    : Loading StringTable took: 7.492200 ms
+21:36:38.912  INIT         : Creating game instance(ArmaReforgerScripted), version 1.6.0.48 built 2025-10-15 19:01:29 UTC.
+21:36:38.918  ENGINE       : Game successfully created.
+21:36:38.918  ENGINE       : Game successfully initialized.
+21:36:38.919 PROFILING    : Workbench Reload Game took: 65.175400 ms
+21:36:38.929 WORLD        : WORLD        : CreateEntities 'world'
+21:36:38.933  WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+21:36:38.934  PROFILING    : NotifyBeforeEntitiesCreated took: 0.006800 ms
+21:36:38.934  WORLD        : WORLD        : Wait for preloading data
+21:36:38.934  PROFILING    : Wait for preloading data took: 0.001400 ms
+21:36:38.941 WORLD        : CreateEntities 'world'
+21:36:38.942  RESOURCES (E): Bad texture name ''
+21:36:38.976  ENTITY       : Create entity @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et"
+21:36:38.977   INVENTORY (W): @"ENTITY:483" ('BarrelOil', GenericEntity) at <43.818001 12.917000 101.855003> @"{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/Barrel.et" "Parent Node From Parent Entity" property on RplComponent of the item is set to true. It should be set to false.
+21:36:38.991  ENTITY       : Create entity @"ENTITY:4611686018427387918" ('BRDM2_FIA1', Vehicle) at <75.898705 4.777187 43.258709> @"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"
+21:36:38.991   ENTITY    (W): JumpOut action not set for slot='Passenger' type='CargoCompartmentSlot' [@"ENTITY:4611686018427387918" ('BRDM2_FIA1', Vehicle) at <75.898705 4.777187 43.258709> @"{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et"]
+21:36:39.028  WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+21:36:39.029  PROFILING    : NotifyBeforeEntitiesInitialized took: 0.004700 ms
+21:36:39.060  WORLD        : WORLD        : NotifyEntitiesInitialized
+21:36:39.060   TERRAIN      : TERRAIN      : Initializing road networks...
+21:36:39.060   PROFILING    : Initializing road networks... took: 0.005300 ms
+21:36:39.061  PROFILING    : NotifyEntitiesInitialized took: 0.166300 ms
+21:36:39.061 PROFILING    : CreateEntities took: 131.849600 ms
+21:36:39.258 RENDER       : RENDER       : ObjectsHeightMap::Build
+21:36:39.258  RENDER       : RENDER       : MeshOccupancyGridManager::GenerateAllForWorld
+21:36:39.258  PROFILING    : MeshOccupancyGridManager::GenerateAllForWorld took: 0.051000 ms
+21:36:39.267 PROFILING    : ObjectsHeightMap::Build took: 8.387300 ms
+21:36:45.890 SCRIPT       : GetResourceName 'script'
+21:36:45.890  RESOURCES (E): Wrong GUID for resource @"{0000000000000000}PrefabsEditable/Auto" in property "m_sDirectory"
+21:36:45.923 RESOURCES    : ResourceDB: saving cache (id=0 name=NewEnfusionProject path=G:\OneDrive\D\DOCUME~1\MYGAME~1\ARMARE~2\addons\NEWENF~1/resourceDatabase.rdb)
+21:36:45.924 RESOURCES    : ResourceDB: written 326/326 bytes
+21:36:45.924 RESOURCES    : ResourceDB: cache successfully saved
+21:36:45.924 RESOURCES    : ResourceDB: saving cache (id=3 name=profile path=G:\OneDrive\D\Documents\My Games\ArmaReforgerWorkbench\profile/resourceDatabase.rdb)
+21:36:45.925 RESOURCES    : ResourceDB: written 177/177 bytes
+21:36:45.925 RESOURCES    : ResourceDB: cache successfully saved
+21:36:45.925 RESOURCES    : ResourceDB: saving cache (id=4 name=logs path=G:\OneDrive\D\Documents\My Games\ArmaReforgerWorkbench\logs\logs_2026-01-21_21-03-47/resourceDatabase.rdb)
+21:36:45.926 RESOURCES    : ResourceDB: written 97/97 bytes
+21:36:45.926 RESOURCES    : ResourceDB: cache successfully saved
+21:36:45.978 ENGINE       : Game destroyed.
+21:36:45.981 ENGINE       : Game destroyed.
+21:36:46.015 RPL          : Pip::Destroy
+21:36:46.181 RESOURCES (E): ==== Resource leaks ====
+21:36:46.181 RESOURCES (E): UI/Imagesets/TutorialHud/TutorialHUD-400_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/Tasks/Task_Icons-100_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Chat/chat_32_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Chat/chat_badge_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-glow-200_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Chat/chat_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_mouse/icons_mouse-200_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_gamepad/icons_gamepad-200_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-200_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_keyboard/icons_keyboard-glow-200_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/Conflict/conflict-no-signal_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Nametags/nametagicons-800_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/InventoryIcons/Medical/Medical-icons-400_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/MilitaryIcons/MilitaryIcons-400_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-64-glow_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32-glow_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-32_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Editor/Logos/Editor-Logo-400_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-400_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Icons/icons_wrapperUI-glow-400_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Editor/EditableEntities/Factions/Faction-Icons-400_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/VehicleInfo/AnalogGaugeImageset_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo-750_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Glow-750_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo-800_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/WeaponInfo/WeaponInfo_Ammo_Glow-800_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/Notifications/NotificationIcons-400_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_place_geometry_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_transform_geometry_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/cursors_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_objective_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_waypoint_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_rotate_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_disabled_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_transform_snap_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_move_camera_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_wait_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_transform_disabled_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_transform_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_place_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_select_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Textures/Cursor/arrow_raw_uiuc.edds   18
+21:36:46.181 RESOURCES (E): UI/Imagesets/Panels/Shadow/panels_fadedBackground-16-100_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/Panels/Outline/panels_roundedOutline-400_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/Panels/panels_roundedCorners-400_atlas.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/WeaponInfo/panel_style_magazines.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/debugUI.edds   1
+21:36:46.181 RESOURCES (E): UI/Textures/WidgetLibrary/ScrollBarRectangles.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/default.edds   1
+21:36:46.181 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1
+21:36:46.181 RESOURCES (E): UI/Imagesets/Commanding/Commanding_Icons-400_atlas.edds   1

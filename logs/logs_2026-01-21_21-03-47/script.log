@@ -1,0 +1,193 @@
+---------------------------------------------
+Log G:\OneDrive\D\Documents\My Games\ArmaReforgerWorkbench\logs\logs_2026-01-21_21-03-47\script.log started at 2026-01-21 21:05:10 (2026-01-22 05:05:10 UTC)
+
+21:05:10.469   SCRIPT       : SCRIPT       : Initializing scripts
+21:05:10.469    SCRIPT       : SCRIPT       : ScriptProjectManager init
+21:05:10.547   SCRIPT       : SCRIPT       : Compiling GameLib scripts
+21:05:10.587    SCRIPT       : Module: GameLib; loaded 382x files; 556x classes; used 692/2097 kB (32%) of static memory; defines: "ENF_WB,WORKBENCH,PLATFORM_WINDOWS,ENABLE_DIAG,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: d0e6be82
+21:05:10.596    SCRIPT       : Module: Workbench; loaded 19x files; 37x classes; used 130/10485 kB (1%) of static memory; defines: "ENF_WB,WORKBENCH,PLATFORM_WINDOWS,ENABLE_DIAG,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 7d50b840
+21:05:10.597   SCRIPT       : SCRIPT       : Compiling Game scripts
+21:05:11.105   SCRIPT       : Compiling Game scripts
+21:05:11.105    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,15": 'OnError' is obsolete: Use BackendCallback.SetOnError() instead.
+21:05:11.105    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,22": 'OnSuccess' is obsolete: Use BackendCallback.SetOnSuccess() instead.
+21:05:11.105    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,28": 'OnTimeout' is obsolete: Use BackendCallback.SetOnError() instead.
+21:05:11.296    SCRIPT    (W): @"scripts/Game/Campaign/SCR_PlayerProfileManagerComponent.c,114": 'PlayerRequest' is obsolete
+21:05:11.296    SCRIPT    (W): @"scripts/Game/Campaign/SCR_PlayerProfileManagerComponent.c,133": 'PlayerData' is obsolete
+21:05:11.298    SCRIPT    (W): @"scripts/Game/Character/Cameras/FirstPerson/CharacterCamera1stPersonUnconscious.c,56": 'GetBoneMatrix' is obsolete: Use GetAnimation().GetBoneMatrix() instead
+21:05:11.339    SCRIPT    (W): @"scripts/Game/DataCollection/PlayerData/SCR_PlayerData.c,210": 'PlayerData' is obsolete
+21:05:11.339    SCRIPT    (W): @"scripts/Game/DataCollection/PlayerData/SCR_PlayerData.c,222": 'IsAuthenticated' is obsolete: Use BackendAuthenticatorApi.IsAuthenticated() instead.
+21:05:11.339    SCRIPT    (W): @"scripts/Game/DataCollection/PlayerData/SCR_PlayerData.c,227": 'PlayerRequest' is obsolete
+21:05:11.339    SCRIPT    (W): @"scripts/Game/DataCollection/PlayerData/SCR_PlayerData.c,307": 'PlayerRequest' is obsolete
+21:05:11.348    SCRIPT    (W): @"scripts/Game/Editor/Components/EditableEntity/SCR_EditableEntityComponent.c,774": 'GetPlayerPlatformKind' is obsolete
+21:05:11.348    SCRIPT    (W): @"scripts/Game/Editor/Components/EditableEntity/SCR_EditableEntityComponent.c,775": 'GetPlayerPlatformId' is obsolete
+21:05:11.353    SCRIPT    (W): @"scripts/Game/Editor/Components/Editor/SCR_CameraEditorComponent.c,226": Possible variable name conflict 'editorManagerEntity'
+21:05:11.353    SCRIPT    (W): @"scripts/Game/Editor/Components/Editor/SCR_CameraEditorComponent.c,243": Possible variable name conflict 'editorManagerEntity'
+21:05:11.353    SCRIPT    (W): @"scripts/Game/Editor/Components/Editor/SCR_CameraEditorComponent.c,265": Possible variable name conflict 'editorManagerEntity'
+21:05:11.353    SCRIPT    (W): @"scripts/Game/Editor/Components/Editor/SCR_CameraEditorComponent.c,274": Possible variable name conflict 'editorManagerEntity'
+21:05:11.353    SCRIPT    (W): @"scripts/Game/Editor/Components/Editor/SCR_CameraEditorComponent.c,303": Possible variable name conflict 'editorManagerEntity'
+21:05:11.395    SCRIPT    (W): @"scripts/Game/Editor/UI/Components/Save/SCR_SaveEditorUIComponent.c,207": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.395    SCRIPT    (W): @"scripts/Game/Editor/UI/Components/Save/SCR_SaveEditorUIComponent.c,214": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.395    SCRIPT    (W): @"scripts/Game/Editor/UI/Components/Save/SCR_SaveEditorUIComponent.c,221": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.408    SCRIPT    (W): @"scripts/Game/FactionCommander/Components/SCR_CampaignFactionCommanderPlayerComponent.c,239": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.410    SCRIPT    (W): @"scripts/Game/FactionCommander/Components/SCR_FactionCommanderPlayerComponent.c,821": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.453    SCRIPT    (W): @"scripts/Game/Helpers/SCR_ServicesStatusHelper.c,76": 'IsAuthenticated' is obsolete: Use BackendAuthenticatorApi.IsAuthenticated() instead.
+21:05:11.474    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,17": 'OnError' is obsolete: Use BackendCallback.SetOnError() instead.
+21:05:11.474    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,24": 'OnSuccess' is obsolete: Use BackendCallback.SetOnSuccess() instead.
+21:05:11.474    SCRIPT    (W): @"scripts/Game/Network/ServerCommands/UploadSaveCommand.c,30": 'OnTimeout' is obsolete: Use BackendCallback.SetOnError() instead.
+21:05:11.522    SCRIPT    (W): @"scripts/Game/UI/Components/MainMenu/SCR_AccountWidgetComponent.c,187": 'IsAuthenticated' is obsolete: Use BackendAuthenticatorApi.IsAuthenticated() instead.
+21:05:11.544    SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_NearbyContextDisplay.c,455": 'GetKeyByValue' is obsolete: Use SCR_MapHelper.GetKeyByValue
+21:05:11.562    SCRIPT    (W): @"scripts/Game/UI/Menu/CareerMenuUI.c,133": 'IsAuthenticated' is obsolete: Use BackendAuthenticatorApi.IsAuthenticated() instead.
+21:05:11.562    SCRIPT    (W): @"scripts/Game/UI/Menu/CareerMenuUI.c,140": 'PlayerRequest' is obsolete
+21:05:11.593    SCRIPT    (W): @"scripts/Game/UI/Menu/SettingsMenu/SCR_SettingsManagerKeybindModule.c,433": Variable 'path' is not used
+21:05:11.613    SCRIPT    (W): @"scripts/Game/Utilities/SCR_PlayerIdentityUtils.c,20": 'GetPlayerIdentityId' is obsolete
+21:05:11.650    SCRIPT       : Module: Game; loaded 5518x files; 10825x classes; used 29792/41943 kB (71%) of static memory; defines: "ENF_WB,WORKBENCH,PLATFORM_WINDOWS,ENABLE_DIAG,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,BUDGET_OPTIMIZATION_CHECKS,SHOW_DISCLAIMER,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,GAME_MODE_DEBUG,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 45716abe
+21:05:12.185    SCRIPT       : Module: WorkbenchGame; loaded 148x files; 554x classes; used 2138/10485 kB (20%) of static memory; defines: "ENF_WB,WORKBENCH,PLATFORM_WINDOWS,ENABLE_DIAG,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46eea57a
+21:05:12.190    SCRIPT    (W): @"scripts/Game/generated/Radio/BaseTransceiver.c,58": Method not linked 'BaseTransceiver.BeginTransmissionFreq'
+21:05:12.190    SCRIPT    (W): @"scripts/Game/generated/AI/SmartActions/AISmartActionComponent.c,12": Missing script declaration for method 'AISmartActionComponent.SetActionOffset'
+21:05:12.190    SCRIPT    (W): @"scripts/Game/generated/Weapon/BaseMuzzleComponent.c,25": Method not linked 'BaseMuzzleComponent.GetBulletInitSpeedCoef'
+21:05:12.191    SCRIPT    (W): @"scripts/Game/generated/Projectile/ProjectileMoveComponent.c,20": Method not linked 'ProjectileMoveComponent.GetProjectileSimulationResult'
+21:05:12.191    SCRIPT    (W): @"scripts/Game/generated/Systems/Persistence/PersistenceSystem.c,12": Missing script declaration for method 'PersistenceSystem.HasTrackedParent'
+21:05:12.191    SCRIPT    (W): @"scripts/Game/generated/Systems/Persistence/PersistenceSystem.c,30": Method not linked 'PersistenceSystem.GetTrackedParent'
+21:09:11.429 SCRIPT       : GetResourceName 'script'
+21:21:18.274 SCRIPT       : GetResourceName 'script'
+21:21:43.062     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:21:43.062     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:21:43.062     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:21:43.062     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:21:44.258   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:21:44.258   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:21:47.653   SCRIPT    (W): Can't open config file ""
+21:21:47.699     SCRIPT    (W): Slot_Chat Has no Content!
+21:21:47.699     SCRIPT    (W): Slot_VON Has no Content!
+21:21:47.699     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:21:47.699     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:21:47.700     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:21:47.700     SCRIPT    (W): Slot_Notifications Has no Content!
+21:21:47.700     SCRIPT    (W): Slot_Hints Has no Content!
+21:21:47.700     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:21:47.715 SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+21:21:47.715 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:21:47.737    SCRIPT    (W): Cannot spawn team members of group <0x0000029DB09D6600> SCR_AIGroup, AIWorld is missing in the world!
+21:21:47.808  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:21:47.810   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:21:47.866    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:23:02.796     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:23:02.796     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:23:02.796     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:23:02.796     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:23:03.968   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:23:03.968   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:23:03.970   SCRIPT    (W): Can't open config file ""
+21:23:03.973     SCRIPT    (W): Slot_Chat Has no Content!
+21:23:03.973     SCRIPT    (W): Slot_VON Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_Notifications Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_Hints Has no Content!
+21:23:03.974     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:23:03.988 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:23:04.037    SCRIPT    (W): Formation of group <0x0000029E86039C50> SCR_AIGroup not found in SCR_AIWorld! Team members will not be spawned.
+21:23:04.104  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:23:04.104   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:23:04.140    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:24:12.768     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:12.768     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:12.769     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:12.769     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:13.945   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:24:13.946   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:24:13.947   SCRIPT    (W): Can't open config file ""
+21:24:13.951     SCRIPT    (W): Slot_Chat Has no Content!
+21:24:13.951     SCRIPT    (W): Slot_VON Has no Content!
+21:24:13.951     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:24:13.951     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:24:13.951     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:24:13.951     SCRIPT    (W): Slot_Notifications Has no Content!
+21:24:13.952     SCRIPT    (W): Slot_Hints Has no Content!
+21:24:13.952     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:24:13.966 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:24:14.007 SCRIPT    (W): SCR_RefundPylonSupportStationAction could not find the prefab data in catalog.
+21:24:14.007 SCRIPT    (W): SCR_RefundPylonSupportStationAction could not find the prefab data in catalog.
+21:24:14.013    SCRIPT    (W): Formation of group <0x0000029D70178A40> SCR_AIGroup not found in SCR_AIWorld! Team members will not be spawned.
+21:24:14.081  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:24:14.081   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:24:14.116    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:24:45.670     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:45.670     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:45.670     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:45.670     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:24:46.057   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:24:46.057   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:24:46.058   SCRIPT    (W): Can't open config file ""
+21:24:46.059     SCRIPT    (W): Slot_Chat Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_VON Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_Notifications Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_Hints Has no Content!
+21:24:46.059     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:24:46.063 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:24:46.104 SCRIPT    (W): SCR_RefundPylonSupportStationAction could not find the prefab data in catalog.
+21:24:46.104 SCRIPT    (W): SCR_RefundPylonSupportStationAction could not find the prefab data in catalog.
+21:24:46.110    SCRIPT    (W): Formation of group <0x0000029D70178A40> SCR_AIGroup not found in SCR_AIWorld! Team members will not be spawned.
+21:24:46.121  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:24:46.121   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:24:46.128    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:28:11.875 SCRIPT    (W): SCR_InstigatorContextData: No instigator type is set on Character death. It is likely that the KillerVictimRelation will be set to OTHER_DEATH which will not punish the victim for suicide.
+21:29:23.110     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:29:23.110     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:29:23.110     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:29:23.110     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:29:23.698   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:29:23.698   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:29:23.700   SCRIPT    (W): Can't open config file ""
+21:29:23.701     SCRIPT    (W): Slot_Chat Has no Content!
+21:29:23.701     SCRIPT    (W): Slot_VON Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_Notifications Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_Hints Has no Content!
+21:29:23.702     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:29:23.710 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:29:23.767    SCRIPT    (W): Formation of group <0x0000029D9588FBE0> SCR_AIGroup not found in SCR_AIWorld! Team members will not be spawned.
+21:29:23.778  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:29:23.778   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:29:23.786    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:34:27.373    SCRIPT    (W): SCR_ResourceGeneratorContainerQueue:
+	Policy at index 0 does not have a defined storage queue.
+	Using default storage queue instead.
+21:34:27.373    SCRIPT    (W): SCR_ResourceGeneratorContainerQueue:
+	Policy at index 1 does not have a defined storage queue.
+	Using default storage queue instead.
+21:34:27.485    SCRIPT    (W): SCR_ResourceGeneratorContainerQueue:
+	Policy at index 0 does not have a defined storage queue.
+	Using default storage queue instead.
+21:34:27.485    SCRIPT    (W): SCR_ResourceGeneratorContainerQueue:
+	Policy at index 1 does not have a defined storage queue.
+	Using default storage queue instead.
+21:34:39.177     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:34:39.178     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:34:39.178     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:34:39.178     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+21:34:39.663   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_PUNISHMENT_KILLING_SET'. There should only be one of each key!
+21:34:39.663   SCRIPT    (W): Notification data in 'SCR_NotificationsLogDisplay' has duplicate notification info key: 'EDITOR_PERCEIVED_FACTION_TYPE_DISABLED'. There should only be one of each key!
+21:34:39.664   SCRIPT    (W): Can't open config file ""
+21:34:39.665     SCRIPT    (W): Slot_Chat Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_VON Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_AvailableActions Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_Vehicle Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_Notifications Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_Hints Has no Content!
+21:34:39.665     SCRIPT    (W): Slot_WeaponInfo Has no Content!
+21:34:39.669 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+21:34:39.715    SCRIPT    (W): Formation of group <0x0000029D95890360> SCR_AIGroup not found in SCR_AIWorld! Team members will not be spawned.
+21:34:39.726  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+21:34:39.726   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:34:39.734    SCRIPT    (W): EditBoxFilterComponent used on invalid widget type.
+21:36:36.439     SCRIPT    (W): Slot_VON Has no Content!
+21:36:36.439     SCRIPT    (W): Slot_GameVersion Has no Content!
+21:36:45.890 SCRIPT       : GetResourceName 'script'
